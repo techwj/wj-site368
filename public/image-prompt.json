@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "prompt": "Create a Q-version black cat Sheriff mascot doll in the style of a blueprint, black and fluffy. Design sketches and include dimensions and explanatory text annotations. Use lines and measurement values to indicate the dimensions of each part, giving the sketch a technical and detailed feel. In addition to the main design, it also includes scattered thumbnails showing different angles and three-dimensional depth of field",
+    "model": "flux-1-schnell"
+  },
+  {
+    "id": 2,
+    "prompt": "An alley is lined with trees, dense branches and leaves form a messy green road, there are new and old self-built houses of different heights on both sides of the road, and each household has cement steps or barbed wire fences on the balconies and doorways, which are full of morning glory, water spinach and garlic sprouts, and some have folding chairs and plastic tables, and a few bananas and oranges on the table. Real and natural, clear brushstrokes, high saturation, light and shadow contrast, cinematic texture. Marker hand-drawn illustration style 32k ultra HD detailed restoration",
+    "model": "stable-diffusion-xl-lightning"
+  },
+  {
+    "id": 3,
+    "prompt": "Help me generate a picture: CG classic color scheme red and blue power armor Spider-Man with spider prosthetics on his back, glass texture at will with a highlight, high detail, high definition, focus on the face with Rembrandt light, express the intensity of light and shadow color contrast, highlight the visual tension of the face, top-down view, texture, power armor slightly reflective, color cold and warm contrast, the sense of artistic atmosphere is strengthened, the surrounding light and shadow transition is natural, created by Unreal 5 engine, using non-traditional composition methods, top-down perspective, strong perspective, breaking conventions, The theme is clear, the focus is gripping, and the visual impact is strong, and the audience resonates.",
+    "model": "stable-diffusion-xl-lightning"
+  },
+  {
+    "id": 4,
+    "prompt": "A bird 's-eye shot shows a cute little girl with big eyes and long eyelashes on her hips, along with a cute cat and a cute dog, making an angry expression at the camera. The dream core is centered and occupies three-fifths of the frame. The details are depicted delicatingly, and the skin texture is clearly visible. The ultra-high-definition display has a fine and realistic sense of lines. The 32K ultra-high-definition picture is ultra-realistic, and the skin texture is clearly visible in ultra-high-definition It shows a strong sense of lines,32K ultra-high-definition picture, close-up, visual impact, story-telling, high-end, dynamic, emotional capture, real skin texture, fine details of skin texture and rich details of pores, a masterpiece of a master",
+    "model": "flux-1-schnell"
+  },
+  {
+    "id": 5,
+    "prompt": "Help me generate an image: Based on UE5 rendering, combined with miniature landscape style and veo3 features, the screen shows a unique keyboard made from frozen cut watermelon. Each button is cut evenly of size, and the frozen watermelon has a delicate texture and bright colors. The perspective of looking up from a low angle highlights the height of the keyboard, and at the same time, the treatment of light and shadow makes the delicate details of the entire keyboard more prominent, giving people a unique visual experience. Scale 9:16.",
+    "model": "flux-1-schnell"
+  },
+  {
+    "id": 6,
+    "prompt": "9 square grid emoticons, Doraemon, three-dimensional effect, high-definition, cute style, actions: dozing, begging for hugs, selling cuteness, smiling, angry, crying, aggrieved, sad, excited",
+    "model": "flux-1-schnell"
+  },
+  {
+    "id": 7,
+    "prompt": "Impasto painting, oil painting, refer to Stephen Chow's facial features, Xingye, Zhou Xingxing, do not appear other irrelevant people's characteristics, human avatar, hyper-realistic, black background, melancholic eyes, clear hair, solemn expression, strong visual impact, delicate skin, super realistic, ultra-clear image.",
+    "model": "stable-diffusion-xl-base-1.0"
+  },
+  {
+    "id": 8,
+    "prompt": "E-commerce marketing picture, the center of the picture is fascia gun, texture, texture, surrealism, science fiction, dream core, looking up, real photography, delicate sense of reality, high-end, atmosphere, strong contrast of light and shadow, large perspective, tension",
+    "model": "flux-1-schnell"
+  },
+  {
+    "id": 9,
+    "prompt": "The realistic oil painting style is dark, the glorious battle spirit, the theme of ancient generals, the scene depiction (veteran Huang Zhong, armor, helmet, bow and arrow, quiver, cape, battlefield background), and the atmosphere creation (majesty, vicissitudes, heroism, wisdom), showing the momentum and experience of the veteran.",
+    "model": "flux-1-schnell"
+  }
+]
