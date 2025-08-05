@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "wj-site59",
+	"name": "wj-site60",
 	"main": "worker.js",
 	"compatibility_date": "2025-07-31",
 	"assets": {
