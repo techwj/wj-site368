@@ -1,5 +1,5 @@
 {
-	"name": "text-to-image",
+	"name": "url-to-image",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
@@ -9,5 +9,8 @@
 	},
 	"devDependencies": {
 		"wrangler": "^4.26.1"
+	},
+	"dependencies": {
+		"qrcode": "^1.5.4"
 	}
 }

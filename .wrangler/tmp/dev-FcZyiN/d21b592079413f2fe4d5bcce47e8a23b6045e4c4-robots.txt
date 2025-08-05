@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://qrcode.upalg.com.com/sitemap.xml
+Sitemap: https://img.upalg.com.com/sitemap.xml
 
 # Disallow API endpoints
 Disallow: /api/

@@ -3,25 +3,25 @@
  * @create_date: 2025-05-10 21:15:59
  * @last_editors: kared
  * @last_edit_time: 2025-05-11 01:25:36
- * @description: This Cloudflare Worker script handles image generation.
+ * @description: This Cloudflare Worker script handles QR code generation with AI backgrounds.
  */
 
 // import html template
 import HTML from "./public/index.html";
 import robots from "./public/robots.txt";
-// import manifest from "./public/manifest.json";
+import QRCode from 'qrcode';
 
 // Sitemap content
 const SITEMAP_CONTENT = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://img.upalg.com.com/</loc>
+    <loc>https://qrcode.upalg.com/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://img.upalg.com.com/manifest.json</loc>
+    <loc>https://qrcode.upalg.com/manifest.json</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -31,10 +31,10 @@ const SITEMAP_CONTENT = `<?xml version="1.0" encoding="UTF-8"?>
 
 // 动态生成meta标签功能
 function generateMetaTags(pageData = {}) {
-  const baseUrl = "https://img.upalg.com.com";
-  const defaultTitle = "Free AI Image Generator - Text to Image Tool";
+  const baseUrl = "https://qrcode.upalg.com";
+  const defaultTitle = "Free AI QR Code Generator - Create Beautiful QR Codes";
   const defaultDescription =
-    "Create stunning AI-generated images from text prompts. Free online tool powered by Stable Diffusion XL, FLUX.1, and DreamShaper models.";
+    "Create beautiful QR codes with AI-generated backgrounds. Free online tool for websites, marketing, and social media campaigns.";
 
   const title = pageData.title || defaultTitle;
   const description = pageData.description || defaultDescription;
@@ -136,9 +136,22 @@ const RANDOM_PROMPTS = [
   "beautiful girl, breasts, curvy, looking down scope, looking away from viewer, laying on the ground, laying ontop of jacket, aiming a sniper rifle, dark braided hair, backwards hat, armor, sleeveless, arm sleeve tattoos, muscle tone, dogtags, sweaty, foreshortening, depth of field, at night, night, alpine, lightly snowing, dusting of snow, Closeup, detailed face, freckles",
 ];
 
+
+
 // Passwords for authentication
 // demo: const PASSWORDS = ['P@ssw0rd']
 const PASSWORDS = [];
+
+// Utility to convert ArrayBuffer to Base64
+function arrayBufferToBase64(buffer) {
+  let binary = '';
+  const bytes = new Uint8Array(buffer);
+  const len = bytes.byteLength;
+  for (let i = 0; i < len; i++) {
+    binary += String.fromCharCode(bytes[i]);
+  }
+  return btoa(binary);
+}
 
 export default {
   async fetch(request, env) {
@@ -178,6 +191,154 @@ export default {
             "Content-Type": "application/json",
           },
         });
+      } else if (path === "/api/generate-qr" && request.method === "POST") {
+        
+        try {
+          // process POST request for QR code generation
+          const data = await request.json();
+
+          // Check if password is required and valid
+          if (PASSWORDS.length > 0 && (!data.password || !PASSWORDS.includes(data.password))) {
+            return new Response(JSON.stringify({ error: "Please enter the correct password" }), {
+              status: 403,
+              headers: { ...corsHeaders, "Content-Type": "application/json" },
+            });
+          }
+
+          if ("url" in data && "style" in data) {
+            // Validate URL format
+            try {
+              new URL(data.url);
+            } catch (e) {
+              return new Response(JSON.stringify({ error: "Invalid URL format" }), {
+                status: 400,
+                headers: { ...corsHeaders, "Content-Type": "application/json" },
+              });
+            }
+
+            const selectedModel = AVAILABLE_MODELS.find((m) => m.id === data.style);
+            if (!selectedModel) {
+              return new Response(JSON.stringify({ error: "Style is invalid" }), {
+                status: 400,
+                headers: { ...corsHeaders, "Content-Type": "application/json" },
+              });
+            }
+
+
+            try {
+              // Step 1: Generate AI background first
+              const backgroundPrompt = `Beautiful artistic background in ${selectedModel.description} style, abstract design, vibrant colors, high quality, professional design, suitable for QR code overlay, clean composition`;
+              
+              const model = selectedModel.key;
+              let inputs = {};
+
+              // Input parameter processing for background generation
+              if (data.style === "flux-1-schnell") {
+                inputs = {
+                  prompt: backgroundPrompt,
+                  steps: 6,
+                };
+              } else {
+                inputs = {
+                  prompt: backgroundPrompt,
+                  negative_prompt: "text, words, letters, busy pattern, cluttered, noisy background",
+                  height: 1024,
+                  width: 1024,
+                  num_steps: 20,
+                  strength: 0.1,
+                  guidance: 7.5,
+                  seed: parseInt((Math.random() * 1024 * 1024).toString(), 10),
+                };
+              }
+
+              const aiResponse = await env.AI.run(model, inputs);
+              
+              // Step 2: Process AI response to get background image
+              let backgroundImageBase64;
+
+              if (aiResponse.image && typeof aiResponse.image === 'string') {
+                // Handle JSON response with base64 image (like flux)
+                backgroundImageBase64 = aiResponse.image;
+              } else if (aiResponse instanceof ArrayBuffer) {
+                // Handle raw ArrayBuffer response
+                backgroundImageBase64 = arrayBufferToBase64(aiResponse);
+              } else if (aiResponse instanceof ReadableStream) {
+                // Handle ReadableStream response
+                const chunks = [];
+                const reader = aiResponse.getReader();
+                while (true) {
+                  const { done, value } = await reader.read();
+                  if (done) break;
+                  chunks.push(value);
+                }
+                const buffer = new Uint8Array(chunks.reduce((acc, val) => acc + val.length, 0));
+                let offset = 0;
+                for (const chunk of chunks) {
+                  buffer.set(chunk, offset);
+                  offset += chunk.length;
+                }
+                backgroundImageBase64 = arrayBufferToBase64(buffer.buffer);
+              } else {
+                // Fallback for other unexpected response types
+                try {
+                  const jsonResponse = JSON.parse(aiResponse);
+                  if (jsonResponse.image) {
+                    backgroundImageBase64 = jsonResponse.image;
+                  } else {
+                    throw new Error("Unsupported AI response format");
+                  }
+                } catch (e) {
+                  console.error("Unsupported AI response format:", aiResponse);
+                  throw new Error("Unsupported AI response format");
+                }
+              }
+
+              // Step 3: Generate real QR code as an SVG string
+              const svgString = await QRCode.toString(data.url, {
+                type: 'svg',
+                width: 300,
+                margin: 1,
+                errorCorrectionLevel: 'H'
+              });
+              const qrDataURL = `data:image/svg+xml;base64,${btoa(svgString)}`;
+
+              // Step 4: Return both images as base64 strings
+              return new Response(JSON.stringify({
+                backgroundImage: `data:image/png;base64,${backgroundImageBase64}`,
+                qrCodeImage: qrDataURL
+              }), {
+                headers: {
+                  ...corsHeaders,
+                  "Content-Type": "application/json",
+                },
+              });
+
+            } catch (aiError) {
+              console.error("QR code generation error:", aiError);
+              return new Response(
+                JSON.stringify({
+                  error: "QR code generation failed",
+                  details: aiError.message,
+                }),
+                {
+                  status: 500,
+                  headers: { ...corsHeaders, "Content-Type": "application/json" },
+                }
+              );
+            }
+          } else {
+            return new Response(JSON.stringify({ error: "Missing required parameter: url or style" }), {
+              status: 400,
+              headers: { ...corsHeaders, "Content-Type": "application/json" },
+            });
+          }
+        } catch (parseError) {
+          console.error("JSON parse error:", parseError);
+          return new Response(JSON.stringify({ error: "Invalid JSON data" }), {
+            status: 400,
+            headers: { ...corsHeaders, "Content-Type": "application/json" },
+          });
+        }
       } else if (path === "/api/generate" && request.method === "POST") {
         // process POST request for image generation
         const data = await request.json();
@@ -227,7 +388,6 @@ export default {
             };
           }
 
-          console.log(`Generating image with ${model} and prompt: ${inputs.prompt.substring(0, 50)}...`);
 
           try {
             const response = await env.AI.run(model, inputs);
@@ -326,7 +486,6 @@ export default {
           });
         }
       } else if (path === "/robots.txt") {
-        console.log('robots.txt>>>');
         
         // Serve robots.txt with caching
         const cacheHeaders = getCacheHeaders(robots, "static");
@@ -355,9 +514,9 @@ export default {
         // Serve manifest.json with caching
         const manifestContent = JSON.stringify(
           {
-            name: "AI Image Generator",
-            short_name: "AI Image Gen",
-            description: "Free AI image generation tool powered by Cloudflare Workers",
+            name: "AI QR Code Generator",
+            short_name: "AI QR Gen",
+            description: "Free AI QR code generator with beautiful backgrounds powered by Cloudflare Workers",
             start_url: "/",
             display: "standalone",
             background_color: "#ffffff",
@@ -379,7 +538,7 @@ export default {
                 purpose: "any maskable",
               },
             ],
-            categories: ["productivity", "utilities", "photo"],
+            categories: ["productivity", "utilities", "business"],
             screenshots: [
               {
                 src: "/screenshot-wide.png",
@@ -410,6 +569,7 @@ export default {
           },
         });
       } else if (request.method === "POST") {
+        
         // Return 405 for other POST requests
         return new Response(JSON.stringify({ error: "Method not allowed" }), {
           status: 405,
@@ -420,16 +580,16 @@ export default {
         let processedHTML = HTML.replace(/{{host}}/g, originalHost);
 
         // 检查是否需要生成动态meta标签
-        const baseUrl = "https://img.upalg.com.com";
+        const baseUrl = "https://qrcode.upalg.com";
         const baseDomain = new URL(baseUrl).hostname;
         const currentDomain = originalHost;
 
         // 只有当域名不同时才生成动态meta标签
         if (baseDomain !== currentDomain) {
           const pageData = {
-            title: "Free AI Image Generator - Text to Image Tool",
+            title: "Free AI QR Code Generator - Create Beautiful QR Codes",
             description:
-              "Create stunning AI-generated images from text prompts. Free online tool powered by Stable Diffusion XL, FLUX.1, and DreamShaper models.",
+              "Create beautiful QR codes with AI-generated backgrounds. Free online tool for websites, marketing, and social media campaigns.",
             url: `https://${originalHost}`,
             canonical: `https://${originalHost}/`,
           };
