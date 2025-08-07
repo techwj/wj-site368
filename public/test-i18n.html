@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I18n Test</title>
+    <script src="/i18n.js"></script>
+</head>
+<body>
+    <h1 data-i18n="header.title">AI QR Code Generator</h1>
+    <p data-i18n="generator.urlLabel">Website URL</p>
+    
+    <button onclick="switchLang('en')">English</button>
+    <button onclick="switchLang('zh')">中文</button>
+    
+    <script>
+        async function switchLang(lang) {
+            await window.i18n.switchLanguage(lang);
+        }
+        
+        window.addEventListener('DOMContentLoaded', async () => {
+            await window.i18n.init();
+            console.log('Current language:', window.i18n.getCurrentLang());
+            console.log('Translations loaded:', window.i18n.t('header.title'));
+        });
+    </script>
+</body>
+</html>

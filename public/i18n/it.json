@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Generatore di codici QR AI gratuito - Crea bellissimi codici QR",
+    "description": "Generatore di codici QR AI gratuito alimentato da Cloudflare Workers. Crea bellissimi codici QR con sfondi generati dall'AI per siti web, social media e campagne di marketing.",
+    "keywords": "generatore di codici QR, sfondi AI, codici QR personalizzati, strumento QR gratuito, codici QR per siti web, codici QR marketing, codici QR brandizzati, design AI",
+    "author": "Generatore di codici QR AI",
+    "ogTitle": "Generatore di codici QR AI gratuito - Crea bellissimi codici QR",
+    "ogDescription": "Crea bellissimi codici QR con sfondi generati dall'AI. Strumento online gratuito per siti web, marketing e campagne sui social media."
+  },
+  "nav": {
+    "generator": "Generatore",
+    "examples": "Esempi",
+    "reviews": "Recensioni",
+    "faq": "FAQ",
+    "themeToggleDark": "Passa al tema scuro",
+    "themeToggleLight": "Passa al tema chiaro"
+  },
+  "header": {
+    "title": "Generatore di codici QR AI"
+  },
+  "generator": {
+    "urlLabel": "URL del sito web",
+    "urlPlaceholder": "Inserisci l'URL del sito web (es. https://example.com)",
+    "styleLabel": "Stile sfondo",
+    "generateButton": "Genera codice QR",
+    "loading": "Caricamento..."
+  },
+  "result": {
+    "title": "Codice QR generato",
+    "copyParams": "Copia parametri",
+    "download": "Scarica codice QR",
+    "generationTime": "Tempo di generazione:",
+    "backgroundStyle": "Stile sfondo:",
+    "generating": "Generazione del codice QR, attendere...",
+    "generatingDesc": "Potrebbe richiedere alcuni secondi"
+  },
+  "examples": {
+    "title": "Esempi di codici QR",
+    "loadError": "Impossibile caricare il codice QR"
+  },
+  "reviews": {
+    "title": "Recensioni degli utenti",
+    "users": [
+      {
+        "name": "Alice Rossi",
+        "time": "2 ore fa",
+        "content": "Questo generatore di codici QR è fantastico! Gli sfondi AI rendono i nostri materiali di marketing così professionali. Molto meglio dei semplici codici QR in bianco e nero."
+      },
+      {
+        "name": "Marco Bianchi",
+        "time": "5 ore fa",
+        "content": "Perfetto per il mio ristorante! Ho creato bellissimi codici QR per il nostro menu che si abbinano al nostro branding. I clienti amano scannerizzarli."
+      },
+      {
+        "name": "Carla Ferrari",
+        "time": "1 giorno fa",
+        "content": "La varietà di stili di sfondo è incredibile. Lo uso ora per tutte le mie campagne sui social media. I codici QR sono sia funzionali che belli!"
+      },
+      {
+        "name": "David Romano",
+        "time": "2 giorni fa",
+        "content": "Codici QR gratuiti e di alta qualità con sfondi personalizzati? Questo è un game-changer per le piccole imprese come la mia. Altamente raccomandato!"
+      },
+      {
+        "name": "Emma Conti",
+        "time": "3 giorni fa",
+        "content": "Amo quanto sia facile creare codici QR brandizzati! Gli sfondi AI sono così creativi e aiutano i nostri codici a distinguersi agli eventi."
+      },
+      {
+        "name": "Franco Ricci",
+        "time": "4 giorni fa",
+        "content": "Come graphic designer, apprezzo l'attenzione ai dettagli. I codici QR sono sempre scansionabili mentre gli sfondi sono visivamente stupendi."
+      },
+      {
+        "name": "Giulia Costa",
+        "time": "5 giorni fa",
+        "content": "Strumento perfetto per il mio negozio online. Ho creato codici QR che collegano alle pagine prodotto con sfondi che si abbinano ai colori del nostro brand."
+      },
+      {
+        "name": "Enrico Mancini",
+        "time": "1 settimana fa",
+        "content": "La velocità di generazione è impressionante e la qualità è costantemente alta. È diventato uno strumento essenziale per il nostro team di marketing."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "question": "Cos'è un generatore di codici QR AI?",
+        "answer": "Il nostro generatore di codici QR AI crea codici QR funzionali con bellissimi sfondi generati dall'AI. A differenza dei semplici codici in bianco e nero, i nostri combinano funzionalità con design visivo stupendo."
+      },
+      {
+        "question": "Come uso il generatore di codici QR?",
+        "answer": "Inserisci semplicemente l'URL del tuo sito web, scegli uno stile di sfondo e clicca \"Genera codice QR\". Lo strumento creerà un codice QR scansionabile con uno sfondo artistico generato dall'AI."
+      },
+      {
+        "question": "I codici QR generati sono scansionabili?",
+        "answer": "Sì! Nonostante abbiano bellissimi sfondi, tutti i nostri codici QR mantengono piena scansionabilità. Assicuriamo contrasto e posizionamento appropriati così che qualsiasi scanner di codici QR possa leggerli."
+      },
+      {
+        "question": "Posso usare questi codici QR commercialmente?",
+        "answer": "Assolutamente! Puoi utilizzare i codici QR generati per qualsiasi scopo incluso uso commerciale, materiali di marketing, biglietti da visita, menu e campagne promozionali."
+      },
+      {
+        "question": "Come posso condividere i codici QR?",
+        "answer": "Puoi scaricare i codici QR come immagini ad alta risoluzione e condividerli ovunque - social media, materiali stampati, siti web o email. Funzionano su tutti i dispositivi e piattaforme."
+      },
+      {
+        "question": "Quali stili di sfondo sono disponibili?",
+        "answer": "Offriamo multipli stili di sfondo generati dall'AI inclusi design artistici, moderni, sfumati e tematici. Ogni stile è accuratamente progettato per mantenere la leggibilità del codice QR."
+      },
+      {
+        "question": "Il servizio è gratuito da usare?",
+        "answer": "Sì! Il nostro generatore di codici QR AI è completamente gratuito da usare. Genera tutti i bellissimi codici QR di cui hai bisogno senza alcun costo o requisito di registrazione."
+      },
+      {
+        "question": "Per quali siti web posso creare codici QR?",
+        "answer": "Puoi creare codici QR per qualsiasi URL di sito web valido - siti web personali, pagine aziendali, profili social media, negozi online, menu, portfolio e altro ancora."
+      }
+    ]
+  },
+  "footer": {
+    "about": "Chi siamo",
+    "agreement": "Accordo utente",
+    "terms": "Termini di servizio",
+    "copyright": "© 2024 Generatore di codici QR AI. Tutti i diritti riservati."
+  },
+  "modal": {
+    "title": "Dettagli codice QR",
+    "close": "Chiudi",
+    "websiteUrl": "URL sito web",
+    "backgroundStyle": "Stile sfondo",
+    "copyUrl": "Copia URL"
+  },
+  "messages": {
+    "urlCopied": "URL copiato negli appunti!",
+    "copyFailed": "Copia fallita, per favore copia manualmente",
+    "paramsCopied": "Parametri copiati negli appunti",
+    "noQrCode": "Nessun codice QR disponibile per il download",
+    "downloadSuccess": "Codice QR scaricato con successo",
+    "downloadFailed": "Download del codice QR fallito",
+    "loadFailed": "Caricamento fallito, per favore aggiorna e riprova",
+    "generateFailed": "Generazione del codice QR fallita"
+  }
+}

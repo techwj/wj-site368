@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Générateur de codes QR IA gratuit - Créez de beaux codes QR",
+    "description": "Générateur de codes QR IA gratuit alimenté par Cloudflare Workers. Créez de beaux codes QR avec des arrière-plans générés par IA pour les sites web, les réseaux sociaux et les campagnes marketing.",
+    "keywords": "générateur de codes QR, arrière-plans IA, codes QR personnalisés, outil QR gratuit, codes QR de site web, codes QR marketing, codes QR de marque, design IA",
+    "author": "Générateur de codes QR IA",
+    "ogTitle": "Générateur de codes QR IA gratuit - Créez de beaux codes QR",
+    "ogDescription": "Créez de beaux codes QR avec des arrière-plans générés par IA. Outil en ligne gratuit pour les sites web, le marketing et les campagnes sur les réseaux sociaux."
+  },
+  "nav": {
+    "generator": "Générateur",
+    "examples": "Exemples",
+    "reviews": "Avis",
+    "faq": "FAQ",
+    "themeToggleDark": "Basculer vers le thème sombre",
+    "themeToggleLight": "Basculer vers le thème clair"
+  },
+  "header": {
+    "title": "Générateur de codes QR IA"
+  },
+  "generator": {
+    "urlLabel": "URL du site web",
+    "urlPlaceholder": "Entrez l'URL du site web (par ex. https://example.com)",
+    "styleLabel": "Style d'arrière-plan",
+    "generateButton": "Générer le code QR",
+    "loading": "Chargement..."
+  },
+  "result": {
+    "title": "Code QR généré",
+    "copyParams": "Copier les paramètres",
+    "download": "Télécharger le code QR",
+    "generationTime": "Temps de génération :",
+    "backgroundStyle": "Style d'arrière-plan :",
+    "generating": "Génération du code QR, veuillez patienter...",
+    "generatingDesc": "Cela peut prendre quelques secondes"
+  },
+  "examples": {
+    "title": "Exemples de codes QR",
+    "loadError": "Échec du chargement du code QR"
+  },
+  "reviews": {
+    "title": "Avis des utilisateurs",
+    "users": [
+      {
+        "name": "Alice Dubois",
+        "time": "il y a 2 heures",
+        "content": "Ce générateur de codes QR est incroyable ! Les arrière-plans IA rendent nos supports marketing si professionnels. Bien mieux que les codes QR noir et blanc ordinaires."
+      },
+      {
+        "name": "Bob Martin",
+        "time": "il y a 5 heures",
+        "content": "Parfait pour mon restaurant ! J'ai créé de beaux codes QR pour notre menu qui correspondent à notre image de marque. Les clients adorent les scanner."
+      },
+      {
+        "name": "Carol Bernard",
+        "time": "il y a 1 jour",
+        "content": "La variété des styles d'arrière-plan est incroyable. Je l'utilise maintenant pour toutes mes campagnes sur les réseaux sociaux. Les codes QR sont à la fois fonctionnels et beaux !"
+      },
+      {
+        "name": "David Rousseau",
+        "time": "il y a 2 jours",
+        "content": "Des codes QR gratuits et de haute qualité avec des arrière-plans personnalisés ? C'est révolutionnaire pour les petites entreprises comme la mienne. Hautement recommandé !"
+      },
+      {
+        "name": "Emma Lefebvre",
+        "time": "il y a 3 jours",
+        "content": "J'adore comme il est facile de créer des codes QR de marque ! Les arrière-plans IA sont si créatifs et aident nos codes à se démarquer lors des événements."
+      },
+      {
+        "name": "Frank Moreau",
+        "time": "il y a 4 jours",
+        "content": "En tant que graphiste, j'apprécie l'attention aux détails. Les codes QR sont toujours scannables tandis que les arrière-plans sont visuellement époustouflants."
+      },
+      {
+        "name": "Grace Simon",
+        "time": "il y a 5 jours",
+        "content": "Outil parfait pour ma boutique en ligne. J'ai créé des codes QR pointant vers les pages produits avec des arrière-plans correspondant à nos couleurs de marque."
+      },
+      {
+        "name": "Henry Laurent",
+        "time": "il y a 1 semaine",
+        "content": "La vitesse de génération est impressionnante et la qualité est constamment élevée. C'est devenu un outil essentiel pour notre équipe marketing."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Foire aux questions",
+    "items": [
+      {
+        "question": "Qu'est-ce qu'un générateur de codes QR IA ?",
+        "answer": "Notre générateur de codes QR IA crée des codes QR fonctionnels avec de beaux arrière-plans générés par IA. Contrairement aux codes noir et blanc ordinaires, les nôtres combinent fonctionnalité et design visuel époustouflant."
+      },
+      {
+        "question": "Comment utiliser le générateur de codes QR ?",
+        "answer": "Entrez simplement l'URL de votre site web, choisissez un style d'arrière-plan et cliquez sur \"Générer le code QR\". L'outil créera un code QR scannable avec un arrière-plan artistique généré par IA."
+      },
+      {
+        "question": "Les codes QR générés sont-ils scannables ?",
+        "answer": "Oui ! Malgré leurs beaux arrière-plans, tous nos codes QR maintiennent une scannabilité complète. Nous assurons un contraste et un positionnement appropriés pour que tout scanner de codes QR puisse les lire."
+      },
+      {
+        "question": "Puis-je utiliser ces codes QR commercialement ?",
+        "answer": "Absolument ! Vous pouvez utiliser les codes QR générés pour tout usage, y compris l'usage commercial, les supports marketing, les cartes de visite, les menus et les campagnes promotionnelles."
+      },
+      {
+        "question": "Comment puis-je partager les codes QR ?",
+        "answer": "Vous pouvez télécharger les codes QR sous forme d'images haute résolution et les partager n'importe où - réseaux sociaux, supports imprimés, sites web ou e-mails. Ils fonctionnent sur tous les appareils et plateformes."
+      },
+      {
+        "question": "Quels styles d'arrière-plan sont disponibles ?",
+        "answer": "Nous offrons plusieurs styles d'arrière-plan générés par IA, y compris des designs artistiques, modernes, dégradés et thématiques. Chaque style est soigneusement conçu pour maintenir la lisibilité du code QR."
+      },
+      {
+        "question": "Le service est-il gratuit à utiliser ?",
+        "answer": "Oui ! Notre générateur de codes QR IA est entièrement gratuit à utiliser. Générez autant de beaux codes QR que vous en avez besoin sans aucun coût ou exigence d'inscription."
+      },
+      {
+        "question": "Pour quels sites web puis-je créer des codes QR ?",
+        "answer": "Vous pouvez créer des codes QR pour toute URL de site web valide - sites web personnels, pages d'entreprise, profils de réseaux sociaux, boutiques en ligne, menus, portfolios et plus encore."
+      }
+    ]
+  },
+  "footer": {
+    "about": "À propos de nous",
+    "agreement": "Accord d'utilisateur",
+    "terms": "Conditions de service",
+    "copyright": "© 2024 Générateur de codes QR IA. Tous droits réservés."
+  },
+  "modal": {
+    "title": "Détails du code QR",
+    "close": "Fermer",
+    "websiteUrl": "URL du site web",
+    "backgroundStyle": "Style d'arrière-plan",
+    "copyUrl": "Copier l'URL"
+  },
+  "messages": {
+    "urlCopied": "URL copiée dans le presse-papiers !",
+    "copyFailed": "Échec de la copie, veuillez copier manuellement",
+    "paramsCopied": "Paramètres copiés dans le presse-papiers",
+    "noQrCode": "Aucun code QR disponible pour le téléchargement",
+    "downloadSuccess": "Code QR téléchargé avec succès",
+    "downloadFailed": "Échec du téléchargement du code QR",
+    "loadFailed": "Échec du chargement, veuillez actualiser et réessayer",
+    "generateFailed": "Échec de la génération du code QR"
+  }
+}

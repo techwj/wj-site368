@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Ücretsiz AI QR Kod Üretici - Güzel QR Kodları Oluşturun",
+    "description": "Cloudflare Workers ile desteklenen ücretsiz AI QR kod üretici. Web siteleri, sosyal medya ve pazarlama kampanyaları için AI tarafından oluşturulan arka planlarla güzel QR kodları oluşturun.",
+    "keywords": "QR kod üretici, AI arka planlar, özel QR kodları, ücretsiz QR araç, web sitesi QR kodları, pazarlama QR kodları, markalı QR kodları, AI tasarım",
+    "author": "AI QR Kod Üretici",
+    "ogTitle": "Ücretsiz AI QR Kod Üretici - Güzel QR Kodları Oluşturun",
+    "ogDescription": "AI tarafından oluşturulan arka planlarla güzel QR kodları oluşturun. Web siteleri, pazarlama ve sosyal medya kampanyaları için ücretsiz online araç."
+  },
+  "nav": {
+    "generator": "Üretici",
+    "examples": "Örnekler",
+    "reviews": "Yorumlar",
+    "faq": "SSS",
+    "themeToggleDark": "Karanlık temaya geç",
+    "themeToggleLight": "Açık temaya geç"
+  },
+  "header": {
+    "title": "AI QR Kod Üretici"
+  },
+  "generator": {
+    "urlLabel": "Web Sitesi URL'si",
+    "urlPlaceholder": "Web sitesi URL'sini girin (örn. https://example.com)",
+    "styleLabel": "Arka Plan Stili",
+    "generateButton": "QR Kod Oluştur",
+    "loading": "Yükleniyor..."
+  },
+  "result": {
+    "title": "Oluşturulan QR Kod",
+    "copyParams": "Parametreleri Kopyala",
+    "download": "QR Kod İndir",
+    "generationTime": "Oluşturma Süresi:",
+    "backgroundStyle": "Arka Plan Stili:",
+    "generating": "QR kod oluşturuluyor, lütfen bekleyin...",
+    "generatingDesc": "Bu birkaç saniye sürebilir"
+  },
+  "examples": {
+    "title": "QR Kod Örnekleri",
+    "loadError": "QR Kod yüklenemedi"
+  },
+  "reviews": {
+    "title": "Kullanıcı Yorumları",
+    "users": [
+      {
+        "name": "Ayşe Yılmaz",
+        "time": "2 saat önce",
+        "content": "Bu QR kod üretici harika! AI arka planlar pazarlama malzemelerimizin çok profesyonel görünmesini sağlıyor. Sade siyah beyaz QR kodlardan çok daha iyi."
+      },
+      {
+        "name": "Mehmet Kaya",
+        "time": "5 saat önce",
+        "content": "Restaurantım için mükemmel! Markamızla uyumlu güzel QR kodlar oluşturdum menümüz için. Müşteriler onları taramayı seviyor."
+      },
+      {
+        "name": "Zeynep Demir",
+        "time": "1 gün önce",
+        "content": "Arka plan stillerinin çeşitliliği inanılmaz. Artık tüm sosyal medya kampanyalarım için bunu kullanıyorum. QR kodlar hem işlevsel hem de güzel!"
+      },
+      {
+        "name": "Fatih Özkan",
+        "time": "2 gün önce",
+        "content": "Özel arka planlarla ücretsiz ve yüksek kaliteli QR kodlar? Bu benim gibi küçük işletmeler için oyun değiştirici. Kesinlikle tavsiye ederim!"
+      },
+      {
+        "name": "Elif Şahin",
+        "time": "3 gün önce",
+        "content": "Markalı QR kodlar oluşturmanın ne kadar kolay olduğunu seviyorum! AI arka planlar çok yaratıcı ve kodlarımızın etkinliklerde öne çıkmasını sağlıyor."
+      },
+      {
+        "name": "Burak Çelik",
+        "time": "4 gün önce",
+        "content": "Grafik tasarımcı olarak detaylara verilen önemi takdir ediyorum. QR kodlar her zaman taranabilir iken arka planlar görsel olarak çarpıcı."
+      },
+      {
+        "name": "Selin Aydın",
+        "time": "5 gün önce",
+        "content": "Online mağazam için mükemmel araç. Ürün sayfalarına bağlanan QR kodlar oluşturdum, marka renklerimizle uyumlu arka planlarla."
+      },
+      {
+        "name": "Emre Polat",
+        "time": "1 hafta önce",
+        "content": "Oluşturma hızı etkileyici ve kalite sürekli yüksek. Pazarlama ekibimiz için vazgeçilmez bir araç haline geldi."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "items": [
+      {
+        "question": "AI QR Kod Üretici nedir?",
+        "answer": "AI QR Kod Üreticimiz güzel AI tarafından oluşturulan arka planlarla işlevsel QR kodlar oluşturur. Sade siyah beyaz kodların aksine, bizimkiler işlevselliği çarpıcı görsel tasarımla birleştirir."
+      },
+      {
+        "question": "QR kod üreticiyi nasıl kullanırım?",
+        "answer": "Web sitesi URL'nizi girin, bir arka plan stili seçin ve 'QR Kod Oluştur'a tıklayın. Araç AI tarafından oluşturulan artistik arka planla taranabilir bir QR kod oluşturacaktır."
+      },
+      {
+        "question": "Oluşturulan QR kodlar taranabilir mi?",
+        "answer": "Evet! Güzel arka planlarına rağmen, tüm QR kodlarımız tam taranabilirlik sağlar. Herhangi bir QR kod tarayıcısının onları okuyabilmesi için uygun kontrast ve konumlandırma sağlarız."
+      },
+      {
+        "question": "Bu QR kodları ticari olarak kullanabilir miyim?",
+        "answer": "Kesinlikle! Oluşturulan QR kodları ticari kullanım, pazarlama malzemeleri, kartvizitler, menüler ve promosyon kampanyaları dahil herhangi bir amaç için kullanabilirsiniz."
+      },
+      {
+        "question": "QR kodları nasıl paylaşabilirim?",
+        "answer": "QR kodları yüksek çözünürlüklü resimler olarak indirebilir ve her yerde paylaşabilirsiniz - sosyal medya, basılı malzemeler, web siteleri veya e-postalar. Tüm cihaz ve platformlarda çalışırlar."
+      },
+      {
+        "question": "Hangi arka plan stilleri mevcut?",
+        "answer": "Artistik, modern, gradyan ve tematik tasarımlar dahil olmak üzere AI tarafından oluşturulan birden fazla arka plan stili sunuyoruz. Her stil QR kod okunabilirliğini korumak için dikkatli bir şekilde tasarlanmıştır."
+      },
+      {
+        "question": "Hizmet kullanımı ücretsiz mi?",
+        "answer": "Evet! AI QR Kod Üreticimiz tamamen ücretsiz kullanım için. İhtiyacınız olan kadar güzel QR kod oluşturun, hiçbir maliyet veya kayıt gereksinimi olmadan."
+      },
+      {
+        "question": "Hangi web siteleri için QR kod oluşturabilirim?",
+        "answer": "Herhangi bir geçerli web sitesi URL'si için QR kod oluşturabilirsiniz - kişisel web siteleri, iş sayfaları, sosyal medya profilleri, online mağazalar, menüler, portföyler ve daha fazlası."
+      }
+    ]
+  },
+  "footer": {
+    "about": "Hakkımızda",
+    "agreement": "Kullanıcı Sözleşmesi",
+    "terms": "Hizmet Şartları",
+    "copyright": "© 2024 AI QR Kod Üretici. Tüm hakları saklıdır."
+  },
+  "modal": {
+    "title": "QR Kod Detayları",
+    "close": "Kapat",
+    "websiteUrl": "Web Sitesi URL'si",
+    "backgroundStyle": "Arka Plan Stili",
+    "copyUrl": "URL'yi Kopyala"
+  },
+  "messages": {
+    "urlCopied": "URL panoya kopyalandı!",
+    "copyFailed": "Kopyalama başarısız, lütfen manuel olarak kopyalayın",
+    "paramsCopied": "Parametreler panoya kopyalandı",
+    "noQrCode": "İndirmek için QR kod mevcut değil",
+    "downloadSuccess": "QR kod başarıyla indirildi",
+    "downloadFailed": "QR kod indirme başarısız",
+    "loadFailed": "Yükleme başarısız, lütfen yenileyin ve tekrar deneyin",
+    "generateFailed": "QR kod oluşturma başarısız"
+  }
+}

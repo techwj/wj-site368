@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Kostenloser KI-QR-Code-Generator - Erstelle schöne QR-Codes",
+    "description": "Kostenloser KI-QR-Code-Generator powered by Cloudflare Workers. Erstelle schöne QR-Codes mit KI-generierten Hintergründen für Websites, soziale Medien und Marketing-Kampagnen.",
+    "keywords": "QR-Code-Generator, KI-Hintergründe, benutzerdefinierte QR-Codes, kostenloses QR-Tool, Website QR-Codes, Marketing QR-Codes, markenspezifische QR-Codes, KI-Design",
+    "author": "KI-QR-Code-Generator",
+    "ogTitle": "Kostenloser KI-QR-Code-Generator - Erstelle schöne QR-Codes",
+    "ogDescription": "Erstelle schöne QR-Codes mit KI-generierten Hintergründen. Kostenloses Online-Tool für Websites, Marketing und Social-Media-Kampagnen."
+  },
+  "nav": {
+    "generator": "Generator",
+    "examples": "Beispiele",
+    "reviews": "Bewertungen",
+    "faq": "FAQ",
+    "themeToggleDark": "Zu dunklem Theme wechseln",
+    "themeToggleLight": "Zu hellem Theme wechseln"
+  },
+  "header": {
+    "title": "KI-QR-Code-Generator"
+  },
+  "generator": {
+    "urlLabel": "Website-URL",
+    "urlPlaceholder": "Website-URL eingeben (z.B. https://example.com)",
+    "styleLabel": "Hintergrund-Stil",
+    "generateButton": "QR-Code generieren",
+    "loading": "Lädt..."
+  },
+  "result": {
+    "title": "Generierter QR-Code",
+    "copyParams": "Parameter kopieren",
+    "download": "QR-Code herunterladen",
+    "generationTime": "Generierungszeit:",
+    "backgroundStyle": "Hintergrund-Stil:",
+    "generating": "QR-Code wird generiert, bitte warten...",
+    "generatingDesc": "Dies kann ein paar Sekunden dauern"
+  },
+  "examples": {
+    "title": "QR-Code-Beispiele",
+    "loadError": "QR-Code konnte nicht geladen werden"
+  },
+  "reviews": {
+    "title": "Nutzerbewertungen",
+    "users": [
+      {
+        "name": "Alice Müller",
+        "time": "vor 2 Stunden",
+        "content": "Dieser QR-Code-Generator ist fantastisch! Die KI-Hintergründe lassen unsere Marketing-Materialien so professionell aussehen. Viel besser als einfache schwarz-weiße QR-Codes."
+      },
+      {
+        "name": "Bob Schmidt",
+        "time": "vor 5 Stunden",
+        "content": "Perfekt für mein Restaurant! Habe schöne QR-Codes für unsere Speisekarte erstellt, die zu unserem Branding passen. Kunden lieben es, sie zu scannen."
+      },
+      {
+        "name": "Carol Weber",
+        "time": "vor 1 Tag",
+        "content": "Die Vielfalt der Hintergrund-Stile ist unglaublich. Ich verwende dies jetzt für alle meine Social-Media-Kampagnen. Die QR-Codes sind sowohl funktional als auch schön!"
+      },
+      {
+        "name": "David Wagner",
+        "time": "vor 2 Tagen",
+        "content": "Kostenlose und hochwertige QR-Codes mit benutzerdefinierten Hintergründen? Das ist ein Game-Changer für kleine Unternehmen wie meines. Sehr empfehlenswert!"
+      },
+      {
+        "name": "Emma Fischer",
+        "time": "vor 3 Tagen",
+        "content": "Ich liebe es, wie einfach es ist, markenspezifische QR-Codes zu erstellen! Die KI-Hintergründe sind so kreativ und helfen unseren Codes, bei Events herauszustechen."
+      },
+      {
+        "name": "Frank Becker",
+        "time": "vor 4 Tagen",
+        "content": "Als Grafikdesigner schätze ich die Liebe zum Detail. Die QR-Codes sind immer scannbar, während die Hintergründe visuell atemberaubend sind."
+      },
+      {
+        "name": "Grace Hoffmann",
+        "time": "vor 5 Tagen",
+        "content": "Perfektes Tool für meinen Online-Shop. Habe QR-Codes erstellt, die zu Produktseiten verlinken, mit Hintergründen, die zu unseren Markenfarben passen."
+      },
+      {
+        "name": "Henry Koch",
+        "time": "vor 1 Woche",
+        "content": "Die Generierungsgeschwindigkeit ist beeindruckend und die Qualität ist durchgehend hoch. Dies ist zu einem unverzichtbaren Tool für unser Marketing-Team geworden."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Was ist ein KI-QR-Code-Generator?",
+        "answer": "Unser KI-QR-Code-Generator erstellt funktionale QR-Codes mit schönen KI-generierten Hintergründen. Im Gegensatz zu einfachen schwarz-weißen Codes kombinieren unsere Funktionalität mit atemberaubendem visuellen Design."
+      },
+      {
+        "question": "Wie verwende ich den QR-Code-Generator?",
+        "answer": "Geben Sie einfach Ihre Website-URL ein, wählen Sie einen Hintergrund-Stil und klicken Sie auf \"QR-Code generieren\". Das Tool erstellt einen scannbaren QR-Code mit einem KI-generierten künstlerischen Hintergrund."
+      },
+      {
+        "question": "Sind die generierten QR-Codes scannbar?",
+        "answer": "Ja! Obwohl sie schöne Hintergründe haben, behalten alle unsere QR-Codes volle Scannbarkeit. Wir sorgen für angemessenen Kontrast und Positionierung, damit jeder QR-Code-Scanner sie lesen kann."
+      },
+      {
+        "question": "Kann ich diese QR-Codes kommerziell verwenden?",
+        "answer": "Absolut! Sie können die generierten QR-Codes für jeden Zweck verwenden, einschließlich kommerzieller Nutzung, Marketing-Materialien, Visitenkarten, Speisekarten und Werbekampagnen."
+      },
+      {
+        "question": "Wie kann ich die QR-Codes teilen?",
+        "answer": "Sie können die QR-Codes als hochauflösende Bilder herunterladen und überall teilen - soziale Medien, Druckmaterialien, Websites oder E-Mails. Sie funktionieren auf allen Geräten und Plattformen."
+      },
+      {
+        "question": "Welche Hintergrund-Stile sind verfügbar?",
+        "answer": "Wir bieten mehrere KI-generierte Hintergrund-Stile, einschließlich künstlerischer, moderner, Verlaufs- und thematischer Designs. Jeder Stil ist sorgfältig gestaltet, um die QR-Code-Lesbarkeit zu erhalten."
+      },
+      {
+        "question": "Ist der Service kostenlos zu verwenden?",
+        "answer": "Ja! Unser KI-QR-Code-Generator ist völlig kostenlos zu verwenden. Generieren Sie so viele schöne QR-Codes, wie Sie benötigen, ohne Kosten oder Registrierungsanforderungen."
+      },
+      {
+        "question": "Für welche Websites kann ich QR-Codes erstellen?",
+        "answer": "Sie können QR-Codes für jede gültige Website-URL erstellen - persönliche Websites, Geschäftsseiten, Social-Media-Profile, Online-Shops, Speisekarten, Portfolios und mehr."
+      }
+    ]
+  },
+  "footer": {
+    "about": "Über uns",
+    "agreement": "Nutzervereinbarung",
+    "terms": "Nutzungsbedingungen",
+    "copyright": "© 2024 KI-QR-Code-Generator. Alle Rechte vorbehalten."
+  },
+  "modal": {
+    "title": "QR-Code-Details",
+    "close": "Schließen",
+    "websiteUrl": "Website-URL",
+    "backgroundStyle": "Hintergrund-Stil",
+    "copyUrl": "URL kopieren"
+  },
+  "messages": {
+    "urlCopied": "URL in die Zwischenablage kopiert!",
+    "copyFailed": "Kopieren fehlgeschlagen, bitte manuell kopieren",
+    "paramsCopied": "Parameter in die Zwischenablage kopiert",
+    "noQrCode": "Kein QR-Code zum Herunterladen verfügbar",
+    "downloadSuccess": "QR-Code erfolgreich heruntergeladen",
+    "downloadFailed": "QR-Code-Download fehlgeschlagen",
+    "loadFailed": "Laden fehlgeschlagen, bitte aktualisieren und erneut versuchen",
+    "generateFailed": "QR-Code-Generierung fehlgeschlagen"
+  }
+}

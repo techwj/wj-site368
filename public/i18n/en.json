@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Free AI QR Code Generator - Create Beautiful QR Codes",
+    "description": "Free AI QR code generator powered by Cloudflare Workers. Create beautiful QR codes with AI-generated backgrounds for websites, social media, and marketing campaigns.",
+    "keywords": "QR code generator, AI backgrounds, custom QR codes, free QR tool, website QR codes, marketing QR codes, branded QR codes, AI design",
+    "author": "AI QR Code Generator",
+    "ogTitle": "Free AI QR Code Generator - Create Beautiful QR Codes",
+    "ogDescription": "Create beautiful QR codes with AI-generated backgrounds. Free online tool for websites, marketing, and social media campaigns."
+  },
+  "nav": {
+    "generator": "Generator",
+    "examples": "Examples",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "themeToggleDark": "Toggle dark theme",
+    "themeToggleLight": "Toggle light theme"
+  },
+  "header": {
+    "title": "AI QR Code Generator"
+  },
+  "generator": {
+    "urlLabel": "Website URL",
+    "urlPlaceholder": "Enter website URL (e.g., https://example.com)",
+    "styleLabel": "Background Style",
+    "generateButton": "Generate QR Code",
+    "loading": "Loading..."
+  },
+  "result": {
+    "title": "Generated QR Code",
+    "copyParams": "Copy Parameters",
+    "download": "Download QR Code",
+    "generationTime": "Generation Time:",
+    "backgroundStyle": "Background Style:",
+    "generating": "Generating QR code, please wait...",
+    "generatingDesc": "This may take a few seconds"
+  },
+  "examples": {
+    "title": "QR Code Examples",
+    "loadError": "QR Code failed to load"
+  },
+  "reviews": {
+    "title": "User Reviews",
+    "users": [
+      {
+        "name": "Alice Chen",
+        "time": "2 hours ago",
+        "content": "This QR code generator is amazing! The AI backgrounds make our marketing materials look so professional. Much better than plain black and white QR codes."
+      },
+      {
+        "name": "Bob Wilson", 
+        "time": "5 hours ago",
+        "content": "Perfect for my restaurant! Created beautiful QR codes for our menu that match our branding. Customers love scanning them."
+      },
+      {
+        "name": "Carol Zhang",
+        "time": "1 day ago", 
+        "content": "The variety of background styles is incredible. I use this for all my social media campaigns now. The QR codes are both functional and beautiful!"
+      },
+      {
+        "name": "David Liu",
+        "time": "2 days ago",
+        "content": "Free and high-quality QR codes with custom backgrounds? This is a game-changer for small businesses like mine. Highly recommended!"
+      },
+      {
+        "name": "Emma Rodriguez",
+        "time": "3 days ago",
+        "content": "Love how easy it is to create branded QR codes! The AI backgrounds are so creative and help our codes stand out at events."
+      },
+      {
+        "name": "Frank Thompson",
+        "time": "4 days ago",
+        "content": "As a graphic designer, I appreciate the attention to detail. The QR codes are always scannable while the backgrounds are visually stunning."
+      },
+      {
+        "name": "Grace Kim",
+        "time": "5 days ago", 
+        "content": "Perfect tool for my e-commerce store. Created QR codes linking to product pages with backgrounds that match our brand colors."
+      },
+      {
+        "name": "Henry Adams",
+        "time": "1 week ago",
+        "content": "The generation speed is impressive and the quality is consistently high. This has become an essential tool for our marketing team."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is an AI QR Code Generator?",
+        "answer": "Our AI QR Code Generator creates functional QR codes with beautiful AI-generated backgrounds. Unlike plain black and white codes, ours combine functionality with stunning visual design."
+      },
+      {
+        "question": "How do I use the QR code generator?",
+        "answer": "Simply enter your website URL, choose a background style, and click \"Generate QR Code\". The tool will create a scannable QR code with an AI-generated artistic background."
+      },
+      {
+        "question": "Are the generated QR codes scannable?",
+        "answer": "Yes! Despite having beautiful backgrounds, all our QR codes maintain full scannability. We ensure proper contrast and positioning so any QR code scanner can read them."
+      },
+      {
+        "question": "Can I use these QR codes commercially?",
+        "answer": "Absolutely! You can use the generated QR codes for any purpose including commercial use, marketing materials, business cards, menus, and promotional campaigns."
+      },
+      {
+        "question": "How can I share the QR codes?",
+        "answer": "You can download the QR codes as high-resolution images and share them anywhere - social media, print materials, websites, or emails. They work on all devices and platforms."
+      },
+      {
+        "question": "What background styles are available?",
+        "answer": "We offer multiple AI-generated background styles including artistic, modern, gradient, and themed designs. Each style is carefully crafted to maintain QR code readability."
+      },
+      {
+        "question": "Is the service free to use?",
+        "answer": "Yes! Our AI QR Code Generator is completely free to use. Generate as many beautiful QR codes as you need without any cost or registration requirements."
+      },
+      {
+        "question": "What websites can I create QR codes for?",
+        "answer": "You can create QR codes for any valid website URL - personal websites, business pages, social media profiles, online stores, menus, portfolios, and more."
+      }
+    ]
+  },
+  "footer": {
+    "about": "About Us",
+    "agreement": "User Agreement", 
+    "terms": "Terms of Service",
+    "copyright": "© 2024 AI QR Code Generator. All rights reserved."
+  },
+  "modal": {
+    "title": "QR Code Details",
+    "close": "Close",
+    "websiteUrl": "Website URL",
+    "backgroundStyle": "Background Style",
+    "copyUrl": "Copy URL"
+  },
+  "messages": {
+    "urlCopied": "URL copied to clipboard!",
+    "copyFailed": "Copy failed, please copy manually",
+    "paramsCopied": "Parameters copied to clipboard",
+    "noQrCode": "No QR code available for download",
+    "downloadSuccess": "QR code downloaded successfully",
+    "downloadFailed": "Failed to download QR code",
+    "loadFailed": "Loading failed, please refresh and try again",
+    "generateFailed": "QR code generation failed"
+  }
+}

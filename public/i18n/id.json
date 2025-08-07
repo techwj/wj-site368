@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Generator QR Code AI Gratis - Buat QR Code yang Indah",
+    "description": "Generator QR code AI gratis yang didukung oleh Cloudflare Workers. Buat QR code yang indah dengan latar belakang yang dihasilkan AI untuk website, media sosial, dan kampanye pemasaran.",
+    "keywords": "generator QR code, latar belakang AI, QR code kustom, alat QR gratis, QR code website, QR code pemasaran, QR code bermerek, desain AI",
+    "author": "Generator QR Code AI",
+    "ogTitle": "Generator QR Code AI Gratis - Buat QR Code yang Indah",
+    "ogDescription": "Buat QR code yang indah dengan latar belakang yang dihasilkan AI. Alat online gratis untuk website, pemasaran, dan kampanye media sosial."
+  },
+  "nav": {
+    "generator": "Generator",
+    "examples": "Contoh",
+    "reviews": "Ulasan",
+    "faq": "FAQ",
+    "themeToggleDark": "Beralih ke tema gelap",
+    "themeToggleLight": "Beralih ke tema terang"
+  },
+  "header": {
+    "title": "Generator QR Code AI"
+  },
+  "generator": {
+    "urlLabel": "URL Website",
+    "urlPlaceholder": "Masukkan URL website (contoh: https://example.com)",
+    "styleLabel": "Gaya Latar Belakang",
+    "generateButton": "Buat QR Code",
+    "loading": "Memuat..."
+  },
+  "result": {
+    "title": "QR Code yang Dihasilkan",
+    "copyParams": "Salin Parameter",
+    "download": "Unduh QR Code",
+    "generationTime": "Waktu Pembuatan:",
+    "backgroundStyle": "Gaya Latar Belakang:",
+    "generating": "Membuat QR code, harap tunggu...",
+    "generatingDesc": "Ini mungkin memakan waktu beberapa detik"
+  },
+  "examples": {
+    "title": "Contoh QR Code",
+    "loadError": "QR Code gagal dimuat"
+  },
+  "reviews": {
+    "title": "Ulasan Pengguna",
+    "users": [
+      {
+        "name": "Sari Wijaya",
+        "time": "2 jam lalu",
+        "content": "Generator QR code ini luar biasa! Latar belakang AI membuat materi pemasaran kami terlihat sangat profesional. Jauh lebih baik dari QR code hitam putih biasa."
+      },
+      {
+        "name": "Budi Santoso",
+        "time": "5 jam lalu",
+        "content": "Sempurna untuk restoran saya! Saya membuat QR code yang indah untuk menu kami yang sesuai dengan branding. Pelanggan suka memindainya."
+      },
+      {
+        "name": "Maya Putri",
+        "time": "1 hari lalu",
+        "content": "Variasi gaya latar belakang sangat luar biasa. Sekarang saya menggunakan ini untuk semua kampanye media sosial saya. QR code-nya fungsional dan indah!"
+      },
+      {
+        "name": "Andi Pratama",
+        "time": "2 hari lalu",
+        "content": "QR code gratis berkualitas tinggi dengan latar belakang kustom? Ini mengubah permainan untuk bisnis kecil seperti saya. Sangat direkomendasikan!"
+      },
+      {
+        "name": "Rina Sari",
+        "time": "3 hari lalu",
+        "content": "Saya suka betapa mudahnya membuat QR code bermerek! Latar belakang AI sangat kreatif dan membantu code kami menonjol di acara-acara."
+      },
+      {
+        "name": "Dedi Kurniawan",
+        "time": "4 hari lalu",
+        "content": "Sebagai desainer grafis, saya menghargai perhatian terhadap detail. QR code selalu dapat dipindai sementara latar belakangnya menakjubkan secara visual."
+      },
+      {
+        "name": "Lestari Indah",
+        "time": "5 hari lalu",
+        "content": "Alat yang sempurna untuk toko online saya. Saya membuat QR code yang mengarah ke halaman produk dengan latar belakang yang sesuai dengan warna merek kami."
+      },
+      {
+        "name": "Hendra Wijaya",
+        "time": "1 minggu lalu",
+        "content": "Kecepatan pembuatannya mengesankan dan kualitasnya konsisten tinggi. Ini telah menjadi alat penting untuk tim pemasaran kami."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      {
+        "question": "Apa itu Generator QR Code AI?",
+        "answer": "Generator QR Code AI kami membuat QR code fungsional dengan latar belakang indah yang dihasilkan AI. Tidak seperti code hitam putih biasa, milik kami menggabungkan fungsionalitas dengan desain visual yang menakjubkan."
+      },
+      {
+        "question": "Bagaimana cara menggunakan generator QR code?",
+        "answer": "Cukup masukkan URL website Anda, pilih gaya latar belakang, dan klik 'Buat QR Code'. Alat ini akan membuat QR code yang dapat dipindai dengan latar belakang artistik yang dihasilkan AI."
+      },
+      {
+        "question": "Apakah QR code yang dihasilkan dapat dipindai?",
+        "answer": "Ya! Meskipun memiliki latar belakang yang indah, semua QR code kami mempertahankan kemampuan pemindaian penuh. Kami memastikan kontras dan posisi yang tepat agar pemindai QR code apa pun dapat membacanya."
+      },
+      {
+        "question": "Bisakah saya menggunakan QR code ini secara komersial?",
+        "answer": "Tentu saja! Anda dapat menggunakan QR code yang dihasilkan untuk tujuan apa pun termasuk penggunaan komersial, materi pemasaran, kartu nama, menu, dan kampanye promosi."
+      },
+      {
+        "question": "Bagaimana cara membagikan QR code?",
+        "answer": "Anda dapat mengunduh QR code sebagai gambar resolusi tinggi dan membagikannya di mana saja - media sosial, materi cetak, website, atau email. Mereka bekerja di semua perangkat dan platform."
+      },
+      {
+        "question": "Gaya latar belakang apa yang tersedia?",
+        "answer": "Kami menawarkan berbagai gaya latar belakang yang dihasilkan AI termasuk desain artistik, modern, gradien, dan tematik. Setiap gaya dirancang dengan hati-hati untuk mempertahankan keterbacaan QR code."
+      },
+      {
+        "question": "Apakah layanan ini gratis untuk digunakan?",
+        "answer": "Ya! Generator QR Code AI kami sepenuhnya gratis untuk digunakan. Buat sebanyak mungkin QR code indah yang Anda butuhkan tanpa biaya atau persyaratan pendaftaran."
+      },
+      {
+        "question": "Untuk website apa saja saya dapat membuat QR code?",
+        "answer": "Anda dapat membuat QR code untuk URL website yang valid apa pun - website pribadi, halaman bisnis, profil media sosial, toko online, menu, portofolio, dan lainnya."
+      }
+    ]
+  },
+  "footer": {
+    "about": "Tentang Kami",
+    "agreement": "Perjanjian Pengguna",
+    "terms": "Syarat Layanan",
+    "copyright": "© 2024 Generator QR Code AI. Seluruh hak cipta dilindungi."
+  },
+  "modal": {
+    "title": "Detail QR Code",
+    "close": "Tutup",
+    "websiteUrl": "URL Website",
+    "backgroundStyle": "Gaya Latar Belakang",
+    "copyUrl": "Salin URL"
+  },
+  "messages": {
+    "urlCopied": "URL disalin ke clipboard!",
+    "copyFailed": "Penyalinan gagal, harap salin secara manual",
+    "paramsCopied": "Parameter disalin ke clipboard",
+    "noQrCode": "Tidak ada QR code yang tersedia untuk diunduh",
+    "downloadSuccess": "QR code berhasil diunduh",
+    "downloadFailed": "Gagal mengunduh QR code",
+    "loadFailed": "Pemuatan gagal, harap refresh dan coba lagi",
+    "generateFailed": "Pembuatan QR code gagal"
+  }
+}
