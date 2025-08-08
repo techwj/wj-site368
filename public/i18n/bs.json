@@ -8,10 +8,10 @@
     "ogDescription": "Otkrijte važne historijske događaje i značajna rođenja koja su se dogodila na ovaj dan u historiji. Višejezična podrška za istraživanje fascinantnih priča iz svakog dana u historiji."
   },
   "nav": {
-    "today": "Današnji upit",
-    "events": "Historijski događaji",
-    "reviews": "Korisničke recenzije",
-    "faq": "Često postavljana pitanja",
+    "today": "Danas",
+    "events": "Događaji",
+    "reviews": "Recenzije",
+    "faq": "FAQ",
     "themeToggleDark": "Prebaci na tamnu temu",
     "themeToggleLight": "Prebaci na svijetlu temu"
   },

@@ -8,10 +8,10 @@
     "ogDescription": "Tarihte bugün gerçekleşen önemli tarihi olayları ve önemli doğumları keşfedin. Tarihin her gününden büyüleyici hikayeleri keşfetmek için çok dilli destek."
   },
   "nav": {
-    "today": "Bugünün sorgusu",
-    "events": "Tarihi olaylar",
-    "reviews": "Kullanıcı yorumları",
-    "faq": "Sık sorulan sorular",
+    "today": "Bugün",
+    "events": "Olaylar",
+    "reviews": "Yorumlar",
+    "faq": "SSS",
     "themeToggleDark": "Karanlık temaya geç",
     "themeToggleLight": "Açık temaya geç"
   },

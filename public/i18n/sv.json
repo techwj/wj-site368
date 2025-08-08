@@ -8,10 +8,10 @@
     "ogDescription": "Upptäck viktiga historiska händelser och notabla födelser som inträffade på denna dag i historien. Flerspråkigt stöd för att utforska fascinerande berättelser från varje dag i historien."
   },
   "nav": {
-    "today": "Dagens förfrågan",
-    "events": "Historiska händelser",
-    "reviews": "Användarrecensioner",
-    "faq": "Vanliga frågor",
+    "today": "Idag",
+    "events": "Händelser",
+    "reviews": "Recensioner",
+    "faq": "FAQ",
     "themeToggleDark": "Växla mörkt tema",
     "themeToggleLight": "Växla ljust tema"
   },

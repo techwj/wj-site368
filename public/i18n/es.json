@@ -8,10 +8,10 @@
     "ogDescription": "Descubre eventos históricos importantes y nacimientos notables que ocurrieron en este día de la historia. Soporte multiidioma para explorar historias fascinantes de cada día en la historia."
   },
   "nav": {
-    "today": "Consulta de hoy",
-    "events": "Eventos históricos",
-    "reviews": "Reseñas de usuarios",
-    "faq": "Preguntas frecuentes",
+    "today": "Hoy",
+    "events": "Eventos",
+    "reviews": "Reseñas",
+    "faq": "FAQ",
     "themeToggleDark": "Cambiar a tema oscuro",
     "themeToggleLight": "Cambiar a tema claro"
   },

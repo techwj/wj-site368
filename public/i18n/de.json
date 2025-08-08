@@ -8,10 +8,10 @@
     "ogDescription": "Entdecke wichtige historische Ereignisse und bemerkenswerte Geburten, die an diesem Tag in der Geschichte stattgefunden haben. Mehrsprachige Unterstützung zur Erkundung faszinierender Geschichten aus jedem Tag der Geschichte."
   },
   "nav": {
-    "today": "Heutige Abfrage",
-    "events": "Historische Ereignisse",
-    "reviews": "Nutzerbewertungen",
-    "faq": "Häufige Fragen",
+    "today": "Heute",
+    "events": "Ereignisse",
+    "reviews": "Bewertungen",
+    "faq": "FAQ",
     "themeToggleDark": "Zu dunklem Theme wechseln",
     "themeToggleLight": "Zu hellem Theme wechseln"
   },
