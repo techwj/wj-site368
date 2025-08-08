@@ -1,42 +1,49 @@
 {
   "meta": {
-    "title": "Free AI QR Code Generator - Create Beautiful QR Codes",
-    "description": "Free AI QR code generator powered by Cloudflare Workers. Create beautiful QR codes with AI-generated backgrounds for websites, social media, and marketing campaigns.",
-    "keywords": "QR code generator, AI backgrounds, custom QR codes, free QR tool, website QR codes, marketing QR codes, branded QR codes, AI design",
-    "author": "AI QR Code Generator",
-    "ogTitle": "Free AI QR Code Generator - Create Beautiful QR Codes",
-    "ogDescription": "Create beautiful QR codes with AI-generated backgrounds. Free online tool for websites, marketing, and social media campaigns."
+    "title": "On This Day in History - Explore Historical Events and Notable Births",
+    "description": "Discover important historical events and notable births that occurred on this day in history. Multi-language support to explore fascinating stories from every day in history.",
+    "keywords": "on this day, historical events, notable births, history query, multilingual history, Wikipedia history",
+    "author": "On This Day in History",
+    "ogTitle": "On This Day in History - Explore Historical Events and Notable Births",
+    "ogDescription": "Discover important historical events and notable births that occurred on this day in history. Multi-language support to explore fascinating stories from every day in history."
   },
   "nav": {
-    "generator": "Generator",
-    "examples": "Examples",
+    "today": "Today",
+    "events": "Events",
     "reviews": "Reviews",
     "faq": "FAQ",
     "themeToggleDark": "Toggle dark theme",
     "themeToggleLight": "Toggle light theme"
   },
   "header": {
-    "title": "AI QR Code Generator"
+    "title": "On This Day in History"
   },
-  "generator": {
-    "urlLabel": "Website URL",
-    "urlPlaceholder": "Enter website URL (e.g., https://example.com)",
-    "styleLabel": "Background Style",
-    "generateButton": "Generate QR Code",
-    "loading": "Loading..."
+  "dateSelector": {
+    "title": "Select Date",
+    "month": "Month",
+    "day": "Day",
+    "query": "Query History"
   },
-  "result": {
-    "title": "Generated QR Code",
-    "copyParams": "Copy Parameters",
-    "download": "Download QR Code",
-    "generationTime": "Generation Time:",
-    "backgroundStyle": "Background Style:",
-    "generating": "Generating QR code, please wait...",
-    "generatingDesc": "This may take a few seconds"
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
   },
-  "examples": {
-    "title": "QR Code Examples",
-    "loadError": "QR Code failed to load"
+  "results": {
+    "title": "On This Day in History",
+    "births": "Notable Births",
+    "events": "Historical Events",
+    "loading": "Loading historical data...",
+    "loadingDesc": "Please wait..."
   },
   "reviews": {
     "title": "User Reviews",
@@ -44,42 +51,42 @@
       {
         "name": "Alice Chen",
         "time": "2 hours ago",
-        "content": "This QR code generator is amazing! The AI backgrounds make our marketing materials look so professional. Much better than plain black and white QR codes."
+        "content": "This historical query tool is so useful! I can learn about interesting events that happened on this day in history every day, gaining a lot of knowledge."
       },
       {
-        "name": "Bob Wilson", 
+        "name": "Bob Wilson",
         "time": "5 hours ago",
-        "content": "Perfect for my restaurant! Created beautiful QR codes for our menu that match our branding. Customers love scanning them."
+        "content": "As a history teacher, I often use this website to find teaching materials. Multi-language support allows me to find historical materials from different perspectives."
       },
       {
         "name": "Carol Zhang",
-        "time": "1 day ago", 
-        "content": "The variety of background styles is incredible. I use this for all my social media campaigns now. The QR codes are both functional and beautiful!"
+        "time": "1 day ago",
+        "content": "Opening this website every morning has become my habit, to see what happened on this day in history. It's very interesting!"
       },
       {
         "name": "David Liu",
         "time": "2 days ago",
-        "content": "Free and high-quality QR codes with custom backgrounds? This is a game-changer for small businesses like mine. Highly recommended!"
+        "content": "Clean and clear interface, accurate and detailed data. As a history enthusiast, this is truly a treasure website I've discovered!"
       },
       {
         "name": "Emma Rodriguez",
         "time": "3 days ago",
-        "content": "Love how easy it is to create branded QR codes! The AI backgrounds are so creative and help our codes stand out at events."
+        "content": "Children especially love this website, checking what happened on this day in history every day. Now their interest in history has greatly increased."
       },
       {
         "name": "Frank Thompson",
         "time": "4 days ago",
-        "content": "As a graphic designer, I appreciate the attention to detail. The QR codes are always scannable while the backgrounds are visually stunning."
+        "content": "Reliable data sources, rich and detailed content. Whether it's major historical events or celebrity births, there are detailed introductions."
       },
       {
         "name": "Grace Kim",
-        "time": "5 days ago", 
-        "content": "Perfect tool for my e-commerce store. Created QR codes linking to product pages with backgrounds that match our brand colors."
+        "time": "5 days ago",
+        "content": "Using this website for journaling is particularly interesting, recording some historical tidbits every day, making ordinary days interesting."
       },
       {
         "name": "Henry Adams",
         "time": "1 week ago",
-        "content": "The generation speed is impressive and the quality is consistently high. This has become an essential tool for our marketing team."
+        "content": "Fast website response, accurate information, clean and elegant design. It's a great tool for learning history and gaining knowledge."
       }
     ]
   },
@@ -87,60 +94,51 @@
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "question": "What is an AI QR Code Generator?",
-        "answer": "Our AI QR Code Generator creates functional QR codes with beautiful AI-generated backgrounds. Unlike plain black and white codes, ours combine functionality with stunning visual design."
+        "question": "What is 'On This Day in History'?",
+        "answer": "'On This Day in History' is a historical query tool that helps you learn about important events and notable births that occurred on any day in history. We obtain accurate historical data from Wikipedia."
       },
       {
-        "question": "How do I use the QR code generator?",
-        "answer": "Simply enter your website URL, choose a background style, and click \"Generate QR Code\". The tool will create a scannable QR code with an AI-generated artistic background."
+        "question": "How do I use this historical query tool?",
+        "answer": "Select the month and day you're interested in, then click the 'Query History' button. The system will display historical events and notable births that occurred on that date."
       },
       {
-        "question": "Are the generated QR codes scannable?",
-        "answer": "Yes! Despite having beautiful backgrounds, all our QR codes maintain full scannability. We ensure proper contrast and positioning so any QR code scanner can read them."
+        "question": "What is the data source?",
+        "answer": "Our historical data comes from Wikipedia's 'On This Day' API, ensuring the accuracy and authority of information. Data is updated in real-time."
       },
       {
-        "question": "Can I use these QR codes commercially?",
-        "answer": "Absolutely! You can use the generated QR codes for any purpose including commercial use, marketing materials, business cards, menus, and promotional campaigns."
+        "question": "What languages are supported?",
+        "answer": "We support multiple language versions, including Chinese, English, German, French, Spanish, and more. Different language versions may have variations in content, reflecting different cultural perspectives on history."
       },
       {
-        "question": "How can I share the QR codes?",
-        "answer": "You can download the QR codes as high-resolution images and share them anywhere - social media, print materials, websites, or emails. They work on all devices and platforms."
+        "question": "How can I share historical information?",
+        "answer": "You can share the webpage link with friends, or copy interesting historical content for sharing. We recommend citing the information source when sharing."
       },
       {
-        "question": "What background styles are available?",
-        "answer": "We offer multiple AI-generated background styles including artistic, modern, gradient, and themed designs. Each style is carefully crafted to maintain QR code readability."
+        "question": "Can I query all dates?",
+        "answer": "Yes, you can query any day of the year (January 1st to December 31st). Our system automatically handles leap year situations."
       },
       {
-        "question": "Is the service free to use?",
-        "answer": "Yes! Our AI QR Code Generator is completely free to use. Generate as many beautiful QR codes as you need without any cost or registration requirements."
+        "question": "Is this service free?",
+        "answer": "Yes! Our historical query service is completely free, with no registration or payment required. You can query any historical date of interest at any time."
       },
       {
-        "question": "What websites can I create QR codes for?",
-        "answer": "You can create QR codes for any valid website URL - personal websites, business pages, social media profiles, online stores, menus, portfolios, and more."
+        "question": "How can I get more detailed historical information?",
+        "answer": "We display summary information about historical events and figures. For more details, we recommend visiting Wikipedia or other authoritative historical sources for in-depth learning."
       }
     ]
   },
   "footer": {
     "about": "About Us",
-    "agreement": "User Agreement", 
+    "agreement": "User Agreement",
     "terms": "Terms of Service",
-    "copyright": "© 2024 AI QR Code Generator. All rights reserved."
+    "copyright": "© 2024 On This Day in History. All rights reserved."
   },
   "modal": {
-    "title": "QR Code Details",
-    "close": "Close",
-    "websiteUrl": "Website URL",
-    "backgroundStyle": "Background Style",
-    "copyUrl": "Copy URL"
+    "title": "Historical Details",
+    "close": "Close"
   },
   "messages": {
-    "urlCopied": "URL copied to clipboard!",
-    "copyFailed": "Copy failed, please copy manually",
-    "paramsCopied": "Parameters copied to clipboard",
-    "noQrCode": "No QR code available for download",
-    "downloadSuccess": "QR code downloaded successfully",
-    "downloadFailed": "Failed to download QR code",
     "loadFailed": "Loading failed, please refresh and try again",
-    "generateFailed": "QR code generation failed"
+    "queryFailed": "Query failed, please try again later"
   }
 }

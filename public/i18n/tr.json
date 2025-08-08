@@ -1,146 +1,144 @@
 {
   "meta": {
-    "title": "Ücretsiz AI QR Kod Üretici - Güzel QR Kodları Oluşturun",
-    "description": "Cloudflare Workers ile desteklenen ücretsiz AI QR kod üretici. Web siteleri, sosyal medya ve pazarlama kampanyaları için AI tarafından oluşturulan arka planlarla güzel QR kodları oluşturun.",
-    "keywords": "QR kod üretici, AI arka planlar, özel QR kodları, ücretsiz QR araç, web sitesi QR kodları, pazarlama QR kodları, markalı QR kodları, AI tasarım",
-    "author": "AI QR Kod Üretici",
-    "ogTitle": "Ücretsiz AI QR Kod Üretici - Güzel QR Kodları Oluşturun",
-    "ogDescription": "AI tarafından oluşturulan arka planlarla güzel QR kodları oluşturun. Web siteleri, pazarlama ve sosyal medya kampanyaları için ücretsiz online araç."
+    "title": "Tarihte bugün - Tarihi olayları ve önemli doğumları keşfedin",
+    "description": "Tarihte bugün gerçekleşen önemli tarihi olayları ve önemli doğumları keşfedin. Tarihin her gününden büyüleyici hikayeleri keşfetmek için çok dilli destek.",
+    "keywords": "tarihte bugün, tarihi olaylar, önemli doğumlar, tarih sorgusu, çok dilli tarih, Wikipedia tarihi",
+    "author": "Tarihte bugün",
+    "ogTitle": "Tarihte bugün - Tarihi olayları ve önemli doğumları keşfedin",
+    "ogDescription": "Tarihte bugün gerçekleşen önemli tarihi olayları ve önemli doğumları keşfedin. Tarihin her gününden büyüleyici hikayeleri keşfetmek için çok dilli destek."
   },
   "nav": {
-    "generator": "Üretici",
-    "examples": "Örnekler",
-    "reviews": "Yorumlar",
-    "faq": "SSS",
+    "today": "Bugünün sorgusu",
+    "events": "Tarihi olaylar",
+    "reviews": "Kullanıcı yorumları",
+    "faq": "Sık sorulan sorular",
     "themeToggleDark": "Karanlık temaya geç",
     "themeToggleLight": "Açık temaya geç"
   },
   "header": {
-    "title": "AI QR Kod Üretici"
+    "title": "Tarihte bugün"
   },
-  "generator": {
-    "urlLabel": "Web Sitesi URL'si",
-    "urlPlaceholder": "Web sitesi URL'sini girin (örn. https://example.com)",
-    "styleLabel": "Arka Plan Stili",
-    "generateButton": "QR Kod Oluştur",
-    "loading": "Yükleniyor..."
+  "dateSelector": {
+    "title": "Tarih seç",
+    "month": "Ay",
+    "day": "Gün",
+    "query": "Tarihi sorgula"
   },
-  "result": {
-    "title": "Oluşturulan QR Kod",
-    "copyParams": "Parametreleri Kopyala",
-    "download": "QR Kod İndir",
-    "generationTime": "Oluşturma Süresi:",
-    "backgroundStyle": "Arka Plan Stili:",
-    "generating": "QR kod oluşturuluyor, lütfen bekleyin...",
-    "generatingDesc": "Bu birkaç saniye sürebilir"
+  "months": {
+    "january": "Ocak",
+    "february": "Şubat",
+    "march": "Mart",
+    "april": "Nisan",
+    "may": "Mayıs",
+    "june": "Haziran",
+    "july": "Temmuz",
+    "august": "Ağustos",
+    "september": "Eylül",
+    "october": "Ekim",
+    "november": "Kasım",
+    "december": "Aralık"
   },
-  "examples": {
-    "title": "QR Kod Örnekleri",
-    "loadError": "QR Kod yüklenemedi"
+  "results": {
+    "title": "Tarihte bugün",
+    "births": "Önemli doğumlar",
+    "events": "Tarihi olaylar",
+    "loading": "Tarihi veriler yükleniyor...",
+    "loadingDesc": "Lütfen bekleyin..."
   },
   "reviews": {
-    "title": "Kullanıcı Yorumları",
+    "title": "Kullanıcı yorumları",
     "users": [
       {
-        "name": "Ayşe Yılmaz",
+        "name": "Mehmet Yılmaz",
         "time": "2 saat önce",
-        "content": "Bu QR kod üretici harika! AI arka planlar pazarlama malzemelerimizin çok profesyonel görünmesini sağlıyor. Sade siyah beyaz QR kodlardan çok daha iyi."
+        "content": "Bu tarihi sorgulama aracı çok yararlı! Her gün tarihin bu gününde yaşanan ilginç olayları öğrenebiliyor ve çok bilgi ediniyorum."
       },
       {
-        "name": "Mehmet Kaya",
+        "name": "Ayşe Demir",
         "time": "5 saat önce",
-        "content": "Restaurantım için mükemmel! Markamızla uyumlu güzel QR kodlar oluşturdum menümüz için. Müşteriler onları taramayı seviyor."
+        "content": "Bir tarih öğretmeni olarak, öğretim materyalleri bulmak için bu web sitesini sık sık kullanıyorum. Çok dilli destek, farklı açılardan tarihi materyaller bulmamı sağlıyor."
       },
       {
-        "name": "Zeynep Demir",
+        "name": "Ali Kaya",
         "time": "1 gün önce",
-        "content": "Arka plan stillerinin çeşitliliği inanılmaz. Artık tüm sosyal medya kampanyalarım için bunu kullanıyorum. QR kodlar hem işlevsel hem de güzel!"
+        "content": "Her sabah bu web sitesini açmak benim alışkanlığım haline geldi, tarihin bu gününde ne olduğunu görmek için. Çok ilginç!"
       },
       {
-        "name": "Fatih Özkan",
+        "name": "Fatma Özkan",
         "time": "2 gün önce",
-        "content": "Özel arka planlarla ücretsiz ve yüksek kaliteli QR kodlar? Bu benim gibi küçük işletmeler için oyun değiştirici. Kesinlikle tavsiye ederim!"
+        "content": "Temiz ve net arayüz, doğru ve detaylı veriler. Bir tarih meraklısı olarak, bu gerçekten keşfettiğim bir hazine web sitesi!"
       },
       {
-        "name": "Elif Şahin",
+        "name": "Mustafa Çelik",
         "time": "3 gün önce",
-        "content": "Markalı QR kodlar oluşturmanın ne kadar kolay olduğunu seviyorum! AI arka planlar çok yaratıcı ve kodlarımızın etkinliklerde öne çıkmasını sağlıyor."
+        "content": "Çocuklar bu web sitesini özellikle seviyor, her gün tarihin bu gününde ne olduğunu kontrol ediyorlar. Şimdi tarihe olan ilgileri önemli ölçüde arttı."
       },
       {
-        "name": "Burak Çelik",
+        "name": "Zeynep Arslan",
         "time": "4 gün önce",
-        "content": "Grafik tasarımcı olarak detaylara verilen önemi takdir ediyorum. QR kodlar her zaman taranabilir iken arka planlar görsel olarak çarpıcı."
+        "content": "Güvenilir veri kaynağı, zengin ve detaylı içerik. Önemli tarihi olaylar veya ünlü kişiliklerin doğum günleri olsun, her şey ayrıntılı olarak sunuluyor."
       },
       {
-        "name": "Selin Aydın",
+        "name": "Hasan Doğan",
         "time": "5 gün önce",
-        "content": "Online mağazam için mükemmel araç. Ürün sayfalarına bağlanan QR kodlar oluşturdum, marka renklerimizle uyumlu arka planlarla."
+        "content": "Bu web sitesini günlük yazmak için kullanmak özellikle ilginç. Her gün tarihi bilgileri kaydedebiliyor ve sıradan günleri ilginç hale getirebiliyorum."
       },
       {
-        "name": "Emre Polat",
+        "name": "Elif Koç",
         "time": "1 hafta önce",
-        "content": "Oluşturma hızı etkileyici ve kalite sürekli yüksek. Pazarlama ekibimiz için vazgeçilmez bir araç haline geldi."
+        "content": "Web sitesinin hızlı yanıtı, doğru bilgiler, temiz ve cömert tasarım. Tarih öğrenmek ve bilgiyi genişletmek için mükemmel bir araç."
       }
     ]
   },
   "faq": {
-    "title": "Sıkça Sorulan Sorular",
+    "title": "Sık sorulan sorular",
     "items": [
       {
-        "question": "AI QR Kod Üretici nedir?",
-        "answer": "AI QR Kod Üreticimiz güzel AI tarafından oluşturulan arka planlarla işlevsel QR kodlar oluşturur. Sade siyah beyaz kodların aksine, bizimkiler işlevselliği çarpıcı görsel tasarımla birleştirir."
+        "question": "\"Tarihin bu günü\" nedir?",
+        "answer": "\"Tarihin bu günü\", tarihin herhangi bir gününde meydana gelen önemli olayları ve önemli doğumları keşfetmenize yardımcı olan bir tarihi sorgulama aracıdır. Wikipedia'dan doğru tarihi veriler alıyoruz."
       },
       {
-        "question": "QR kod üreticiyi nasıl kullanırım?",
-        "answer": "Web sitesi URL'nizi girin, bir arka plan stili seçin ve 'QR Kod Oluştur'a tıklayın. Araç AI tarafından oluşturulan artistik arka planla taranabilir bir QR kod oluşturacaktır."
+        "question": "Bu tarihi sorgulama aracı nasıl kullanılır?",
+        "answer": "İlgilendiğiniz ay ve günü seçin, ardından \"Tarihi sorgula\" düğmesine tıklayın. Sistem o tarih için tarihi olayları ve önemli doğumları gösterecektir."
       },
       {
-        "question": "Oluşturulan QR kodlar taranabilir mi?",
-        "answer": "Evet! Güzel arka planlarına rağmen, tüm QR kodlarımız tam taranabilirlik sağlar. Herhangi bir QR kod tarayıcısının onları okuyabilmesi için uygun kontrast ve konumlandırma sağlarız."
+        "question": "Veri kaynağı nedir?",
+        "answer": "Tarihi verilerimiz Wikipedia'nın \"Bu gün\" API'sinden geliyor, bilginin doğruluğunu ve otoritesini garanti ediyor. Veriler gerçek zamanlı olarak güncelleniyor."
       },
       {
-        "question": "Bu QR kodları ticari olarak kullanabilir miyim?",
-        "answer": "Kesinlikle! Oluşturulan QR kodları ticari kullanım, pazarlama malzemeleri, kartvizitler, menüler ve promosyon kampanyaları dahil herhangi bir amaç için kullanabilirsiniz."
+        "question": "Hangi diller destekleniyor?",
+        "answer": "Türkçe, İngilizce, Çince, Almanca, İspanyolca vb. dahil olmak üzere birden fazla dil versiyonunu destekliyoruz. Farklı dil versiyonları farklı içeriklere sahip olabilir, tarihe dair çeşitli kültürel perspektifleri yansıtır."
       },
       {
-        "question": "QR kodları nasıl paylaşabilirim?",
-        "answer": "QR kodları yüksek çözünürlüklü resimler olarak indirebilir ve her yerde paylaşabilirsiniz - sosyal medya, basılı malzemeler, web siteleri veya e-postalar. Tüm cihaz ve platformlarda çalışırlar."
+        "question": "Tarihi bilgiler nasıl paylaşılır?",
+        "answer": "Web sitesi bağlantısını arkadaşlarla paylaşabilir veya ilginç tarihi içeriği kopyalayıp paylaşabilirsiniz. Paylaşırken bilgi kaynağını belirtmenizi öneriyoruz."
       },
       {
-        "question": "Hangi arka plan stilleri mevcut?",
-        "answer": "Artistik, modern, gradyan ve tematik tasarımlar dahil olmak üzere AI tarafından oluşturulan birden fazla arka plan stili sunuyoruz. Her stil QR kod okunabilirliğini korumak için dikkatli bir şekilde tasarlanmıştır."
+        "question": "Tüm tarihleri sorgulayabilir miyim?",
+        "answer": "Evet, yılın herhangi bir gününü sorgulayabilirsiniz (1 Ocak'tan 31 Aralık'a kadar). Sistemimiz artık yılları otomatik olarak işler."
       },
       {
-        "question": "Hizmet kullanımı ücretsiz mi?",
-        "answer": "Evet! AI QR Kod Üreticimiz tamamen ücretsiz kullanım için. İhtiyacınız olan kadar güzel QR kod oluşturun, hiçbir maliyet veya kayıt gereksinimi olmadan."
+        "question": "Bu hizmet ücretsiz mi?",
+        "answer": "Evet! Tarihi sorgulama hizmetimiz tamamen ücretsizdir, kayıt veya ödeme gerekmez. İstediğiniz zaman herhangi bir ilginç tarihi tarihi sorgulayabilirsiniz."
       },
       {
-        "question": "Hangi web siteleri için QR kod oluşturabilirim?",
-        "answer": "Herhangi bir geçerli web sitesi URL'si için QR kod oluşturabilirsiniz - kişisel web siteleri, iş sayfaları, sosyal medya profilleri, online mağazalar, menüler, portföyler ve daha fazlası."
+        "question": "Daha ayrıntılı tarihi bilgiler nasıl elde edilir?",
+        "answer": "Tarihi olayların ve karakterlerin özetlerini gösteriyoruz. Daha fazla ayrıntı için, daha derin öğrenim için Wikipedia veya diğer yetkili tarihi kaynaklari ziyaret etmenizi öneriyoruz."
       }
     ]
   },
   "footer": {
     "about": "Hakkımızda",
-    "agreement": "Kullanıcı Sözleşmesi",
-    "terms": "Hizmet Şartları",
-    "copyright": "© 2024 AI QR Kod Üretici. Tüm hakları saklıdır."
+    "agreement": "Kullanıcı sözleşmesi",
+    "terms": "Hizmet şartları",
+    "copyright": "© 2024 Tarihte bugün. Tüm hakları saklıdır."
   },
   "modal": {
-    "title": "QR Kod Detayları",
-    "close": "Kapat",
-    "websiteUrl": "Web Sitesi URL'si",
-    "backgroundStyle": "Arka Plan Stili",
-    "copyUrl": "URL'yi Kopyala"
+    "title": "Tarihi detaylar",
+    "close": "Kapat"
   },
   "messages": {
-    "urlCopied": "URL panoya kopyalandı!",
-    "copyFailed": "Kopyalama başarısız, lütfen manuel olarak kopyalayın",
-    "paramsCopied": "Parametreler panoya kopyalandı",
-    "noQrCode": "İndirmek için QR kod mevcut değil",
-    "downloadSuccess": "QR kod başarıyla indirildi",
-    "downloadFailed": "QR kod indirme başarısız",
     "loadFailed": "Yükleme başarısız, lütfen yenileyin ve tekrar deneyin",
-    "generateFailed": "QR kod oluşturma başarısız"
+    "queryFailed": "Sorgu başarısız, lütfen daha sonra tekrar deneyin"
   }
 }

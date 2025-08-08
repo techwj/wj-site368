@@ -1,122 +1,129 @@
 {
   "meta": {
-    "title": "Kostenloser KI-QR-Code-Generator - Erstelle schöne QR-Codes",
-    "description": "Kostenloser KI-QR-Code-Generator powered by Cloudflare Workers. Erstelle schöne QR-Codes mit KI-generierten Hintergründen für Websites, soziale Medien und Marketing-Kampagnen.",
-    "keywords": "QR-Code-Generator, KI-Hintergründe, benutzerdefinierte QR-Codes, kostenloses QR-Tool, Website QR-Codes, Marketing QR-Codes, markenspezifische QR-Codes, KI-Design",
-    "author": "KI-QR-Code-Generator",
-    "ogTitle": "Kostenloser KI-QR-Code-Generator - Erstelle schöne QR-Codes",
-    "ogDescription": "Erstelle schöne QR-Codes mit KI-generierten Hintergründen. Kostenloses Online-Tool für Websites, Marketing und Social-Media-Kampagnen."
+    "title": "An diesem Tag in der Geschichte - Erkunde historische Ereignisse und bemerkenswerte Geburten",
+    "description": "Entdecke wichtige historische Ereignisse und bemerkenswerte Geburten, die an diesem Tag in der Geschichte stattgefunden haben. Mehrsprachige Unterstützung zur Erkundung faszinierender Geschichten aus jedem Tag der Geschichte.",
+    "keywords": "an diesem Tag, historische Ereignisse, bemerkenswerte Geburten, Geschichtsabfrage, mehrsprachige Geschichte, Wikipedia-Geschichte",
+    "author": "An diesem Tag in der Geschichte",
+    "ogTitle": "An diesem Tag in der Geschichte - Erkunde historische Ereignisse und bemerkenswerte Geburten",
+    "ogDescription": "Entdecke wichtige historische Ereignisse und bemerkenswerte Geburten, die an diesem Tag in der Geschichte stattgefunden haben. Mehrsprachige Unterstützung zur Erkundung faszinierender Geschichten aus jedem Tag der Geschichte."
   },
   "nav": {
-    "generator": "Generator",
-    "examples": "Beispiele",
-    "reviews": "Bewertungen",
-    "faq": "FAQ",
+    "today": "Heutige Abfrage",
+    "events": "Historische Ereignisse",
+    "reviews": "Nutzerbewertungen",
+    "faq": "Häufige Fragen",
     "themeToggleDark": "Zu dunklem Theme wechseln",
     "themeToggleLight": "Zu hellem Theme wechseln"
   },
   "header": {
-    "title": "KI-QR-Code-Generator"
+    "title": "An diesem Tag in der Geschichte"
   },
-  "generator": {
-    "urlLabel": "Website-URL",
-    "urlPlaceholder": "Website-URL eingeben (z.B. https://example.com)",
-    "styleLabel": "Hintergrund-Stil",
-    "generateButton": "QR-Code generieren",
-    "loading": "Lädt..."
+  "dateSelector": {
+    "title": "Datum auswählen",
+    "month": "Monat",
+    "day": "Tag",
+    "query": "Geschichte abfragen"
   },
-  "result": {
-    "title": "Generierter QR-Code",
-    "copyParams": "Parameter kopieren",
-    "download": "QR-Code herunterladen",
-    "generationTime": "Generierungszeit:",
-    "backgroundStyle": "Hintergrund-Stil:",
-    "generating": "QR-Code wird generiert, bitte warten...",
-    "generatingDesc": "Dies kann ein paar Sekunden dauern"
+  "months": {
+    "january": "Januar",
+    "february": "Februar",
+    "march": "März",
+    "april": "April",
+    "may": "Mai",
+    "june": "Juni",
+    "july": "Juli",
+    "august": "August",
+    "september": "September",
+    "october": "Oktober",
+    "november": "November",
+    "december": "Dezember"
   },
-  "examples": {
-    "title": "QR-Code-Beispiele",
-    "loadError": "QR-Code konnte nicht geladen werden"
+  "results": {
+    "title": "An diesem Tag in der Geschichte",
+    "births": "Bemerkenswerte Geburten",
+    "events": "Historische Ereignisse",
+    "loading": "Lade historische Daten...",
+    "loadingDesc": "Bitte warten..."
   },
   "reviews": {
     "title": "Nutzerbewertungen",
     "users": [
       {
-        "name": "Alice Müller",
+        "name": "Klaus Müller",
         "time": "vor 2 Stunden",
-        "content": "Dieser QR-Code-Generator ist fantastisch! Die KI-Hintergründe lassen unsere Marketing-Materialien so professionell aussehen. Viel besser als einfache schwarz-weiße QR-Codes."
+        "content": "Dieses historische Abfrage-Tool ist so nützlich! Jeden Tag kann ich interessante Ereignisse erfahren, die an diesem Tag in der Geschichte passiert sind, und gewinne viel Wissen."
       },
       {
-        "name": "Bob Schmidt",
+        "name": "Anna Schmidt",
         "time": "vor 5 Stunden",
-        "content": "Perfekt für mein Restaurant! Habe schöne QR-Codes für unsere Speisekarte erstellt, die zu unserem Branding passen. Kunden lieben es, sie zu scannen."
+        "content": "Als Geschichtslehrerin nutze ich diese Website oft, um Unterrichtsmaterialien zu finden. Die Mehrsprachunterstützung ermöglicht es mir, historische Materialien aus verschiedenen Blickwinkeln zu finden."
       },
       {
-        "name": "Carol Weber",
+        "name": "Stefan Wagner",
         "time": "vor 1 Tag",
-        "content": "Die Vielfalt der Hintergrund-Stile ist unglaublich. Ich verwende dies jetzt für alle meine Social-Media-Kampagnen. Die QR-Codes sind sowohl funktional als auch schön!"
+        "content": "Diese Website jeden Morgen zu öffnen ist zu meiner Gewohnheit geworden, um zu sehen, was an diesem Tag in der Geschichte passiert ist. Es ist sehr interessant!"
       },
       {
-        "name": "David Wagner",
+        "name": "Maria Fischer",
         "time": "vor 2 Tagen",
-        "content": "Kostenlose und hochwertige QR-Codes mit benutzerdefinierten Hintergründen? Das ist ein Game-Changer für kleine Unternehmen wie meines. Sehr empfehlenswert!"
+        "content": "Saubere und klare Benutzeroberfläche, genaue und detaillierte Daten. Als Geschichtsenthusiast ist dies wirklich eine Schatz-Website, die ich entdeckt habe!"
       },
       {
-        "name": "Emma Fischer",
+        "name": "Thomas Bauer",
         "time": "vor 3 Tagen",
-        "content": "Ich liebe es, wie einfach es ist, markenspezifische QR-Codes zu erstellen! Die KI-Hintergründe sind so kreativ und helfen unseren Codes, bei Events herauszustechen."
+        "content": "Kinder lieben diese Website besonders und überprüfen jeden Tag, was an diesem Tag in der Geschichte passiert ist. Jetzt ist ihr Interesse an Geschichte stark gestiegen."
       },
       {
-        "name": "Frank Becker",
+        "name": "Lisa Weber",
         "time": "vor 4 Tagen",
-        "content": "Als Grafikdesigner schätze ich die Liebe zum Detail. Die QR-Codes sind immer scannbar, während die Hintergründe visuell atemberaubend sind."
+        "content": "Zuverlässige Datenquelle, reiche und detaillierte Inhalte. Ob wichtige historische Ereignisse oder Geburtstage berühmter Persönlichkeiten, alles wird detailliert vorgestellt."
       },
       {
-        "name": "Grace Hoffmann",
+        "name": "Michael Klein",
         "time": "vor 5 Tagen",
-        "content": "Perfektes Tool für meinen Online-Shop. Habe QR-Codes erstellt, die zu Produktseiten verlinken, mit Hintergründen, die zu unseren Markenfarben passen."
+        "content": "Mit dieser Website Tagebuch zu schreiben ist besonders interessant. Jeden Tag kann ich historisches Wissen aufzeichnen und gewöhnliche Tage interessant machen."
       },
       {
-        "name": "Henry Koch",
+        "name": "Sarah Hoffmann",
         "time": "vor 1 Woche",
-        "content": "Die Generierungsgeschwindigkeit ist beeindruckend und die Qualität ist durchgehend hoch. Dies ist zu einem unverzichtbaren Tool für unser Marketing-Team geworden."
+        "content": "Schnelle Website-Reaktion, genaue Informationen, sauberes und großzügiges Design. Es ist ein großartiges Werkzeug zum Lernen von Geschichte und zur Wissenserweiterung."
       }
     ]
   },
   "faq": {
-    "title": "Häufig gestellte Fragen",
+    "title": "Häufige Fragen",
     "items": [
       {
-        "question": "Was ist ein KI-QR-Code-Generator?",
-        "answer": "Unser KI-QR-Code-Generator erstellt funktionale QR-Codes mit schönen KI-generierten Hintergründen. Im Gegensatz zu einfachen schwarz-weißen Codes kombinieren unsere Funktionalität mit atemberaubendem visuellen Design."
+        "question": "Was ist \"An diesem Tag in der Geschichte\"?",
+        "answer": "\"An diesem Tag in der Geschichte\" ist ein historisches Abfrage-Tool, das Ihnen hilft, wichtige Ereignisse und bemerkenswerte Geburten an jedem Tag in der Geschichte zu entdecken. Wir beziehen genaue historische Daten aus Wikipedia."
       },
       {
-        "question": "Wie verwende ich den QR-Code-Generator?",
-        "answer": "Geben Sie einfach Ihre Website-URL ein, wählen Sie einen Hintergrund-Stil und klicken Sie auf \"QR-Code generieren\". Das Tool erstellt einen scannbaren QR-Code mit einem KI-generierten künstlerischen Hintergrund."
+        "question": "Wie verwende ich dieses historische Abfrage-Tool?",
+        "answer": "Wählen Sie den gewünschten Monat und Tag aus und klicken Sie auf die Schaltfläche \"Geschichte abfragen\". Das System zeigt historische Ereignisse und bemerkenswerte Geburten für dieses Datum an."
       },
       {
-        "question": "Sind die generierten QR-Codes scannbar?",
-        "answer": "Ja! Obwohl sie schöne Hintergründe haben, behalten alle unsere QR-Codes volle Scannbarkeit. Wir sorgen für angemessenen Kontrast und Positionierung, damit jeder QR-Code-Scanner sie lesen kann."
+        "question": "Was ist die Datenquelle?",
+        "answer": "Unsere historischen Daten stammen aus Wikipedias \"An diesem Tag\"-API, um Genauigkeit und Autorität der Informationen zu gewährleisten. Die Daten werden in Echtzeit aktualisiert."
       },
       {
-        "question": "Kann ich diese QR-Codes kommerziell verwenden?",
-        "answer": "Absolut! Sie können die generierten QR-Codes für jeden Zweck verwenden, einschließlich kommerzieller Nutzung, Marketing-Materialien, Visitenkarten, Speisekarten und Werbekampagnen."
+        "question": "Welche Sprachen werden unterstützt?",
+        "answer": "Wir unterstützen mehrere Sprachversionen, einschließlich Deutsch, Englisch, Chinesisch, Französisch, Spanisch und mehr. Verschiedene Sprachversionen können unterschiedliche Inhalte haben, die verschiedene kulturelle Perspektiven auf die Geschichte widerspiegeln."
       },
       {
-        "question": "Wie kann ich die QR-Codes teilen?",
-        "answer": "Sie können die QR-Codes als hochauflösende Bilder herunterladen und überall teilen - soziale Medien, Druckmaterialien, Websites oder E-Mails. Sie funktionieren auf allen Geräten und Plattformen."
+        "question": "Wie kann ich historische Informationen teilen?",
+        "answer": "Sie können den Website-Link mit Freunden teilen oder interessante historische Inhalte kopieren und teilen. Wir empfehlen, bei der Weitergabe die Informationsquelle anzugeben."
       },
       {
-        "question": "Welche Hintergrund-Stile sind verfügbar?",
-        "answer": "Wir bieten mehrere KI-generierte Hintergrund-Stile, einschließlich künstlerischer, moderner, Verlaufs- und thematischer Designs. Jeder Stil ist sorgfältig gestaltet, um die QR-Code-Lesbarkeit zu erhalten."
+        "question": "Kann ich alle Daten abfragen?",
+        "answer": "Ja, Sie können jeden Tag des Jahres abfragen (1. Januar bis 31. Dezember). Unser System verarbeitet automatisch Schaltjahre."
       },
       {
-        "question": "Ist der Service kostenlos zu verwenden?",
-        "answer": "Ja! Unser KI-QR-Code-Generator ist völlig kostenlos zu verwenden. Generieren Sie so viele schöne QR-Codes, wie Sie benötigen, ohne Kosten oder Registrierungsanforderungen."
+        "question": "Ist dieser Service kostenlos?",
+        "answer": "Ja! Unser historischer Abfrage-Service ist völlig kostenlos, ohne Registrierung oder Bezahlung erforderlich. Sie können jederzeit jedes interessante historische Datum abfragen."
       },
       {
-        "question": "Für welche Websites kann ich QR-Codes erstellen?",
-        "answer": "Sie können QR-Codes für jede gültige Website-URL erstellen - persönliche Websites, Geschäftsseiten, Social-Media-Profile, Online-Shops, Speisekarten, Portfolios und mehr."
+        "question": "Wie erhalte ich detailliertere historische Informationen?",
+        "answer": "Wir zeigen Zusammenfassungen von historischen Ereignissen und Personen. Für weitere Details empfehlen wir Ihnen, Wikipedia oder andere maßgebliche historische Quellen für tieferes Lernen zu besuchen."
       }
     ]
   },
@@ -124,23 +131,14 @@
     "about": "Über uns",
     "agreement": "Nutzervereinbarung",
     "terms": "Nutzungsbedingungen",
-    "copyright": "© 2024 KI-QR-Code-Generator. Alle Rechte vorbehalten."
+    "copyright": "© 2024 An diesem Tag in der Geschichte. Alle Rechte vorbehalten."
   },
   "modal": {
-    "title": "QR-Code-Details",
-    "close": "Schließen",
-    "websiteUrl": "Website-URL",
-    "backgroundStyle": "Hintergrund-Stil",
-    "copyUrl": "URL kopieren"
+    "title": "Historische Details",
+    "close": "Schließen"
   },
   "messages": {
-    "urlCopied": "URL in die Zwischenablage kopiert!",
-    "copyFailed": "Kopieren fehlgeschlagen, bitte manuell kopieren",
-    "paramsCopied": "Parameter in die Zwischenablage kopiert",
-    "noQrCode": "Kein QR-Code zum Herunterladen verfügbar",
-    "downloadSuccess": "QR-Code erfolgreich heruntergeladen",
-    "downloadFailed": "QR-Code-Download fehlgeschlagen",
     "loadFailed": "Laden fehlgeschlagen, bitte aktualisieren und erneut versuchen",
-    "generateFailed": "QR-Code-Generierung fehlgeschlagen"
+    "queryFailed": "Abfrage fehlgeschlagen, bitte später erneut versuchen"
   }
 }

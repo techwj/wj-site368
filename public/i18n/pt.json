@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Neste Dia na História - Explore Eventos Históricos e Nascimentos Notáveis",
+    "description": "Descubra eventos históricos importantes e nascimentos notáveis que ocorreram neste dia na história. Suporte multilíngue para explorar histórias fascinantes de cada dia da história.",
+    "keywords": "neste dia, eventos históricos, nascimentos notáveis, consulta histórica, história multilíngue, história da Wikipedia",
+    "author": "Neste Dia na História",
+    "ogTitle": "Neste Dia na História - Explore Eventos Históricos e Nascimentos Notáveis",
+    "ogDescription": "Descubra eventos históricos importantes e nascimentos notáveis que ocorreram neste dia na história. Suporte multilíngue para explorar histórias fascinantes de cada dia da história."
+  },
+  "nav": {
+    "today": "Consulta de Hoje",
+    "events": "Eventos Históricos",
+    "reviews": "Avaliações dos Usuários",
+    "faq": "Perguntas Frequentes",
+    "themeToggleDark": "Alternar tema escuro",
+    "themeToggleLight": "Alternar tema claro"
+  },
+  "header": {
+    "title": "Neste Dia na História"
+  },
+  "dateSelector": {
+    "title": "Selecionar Data",
+    "month": "Mês",
+    "day": "Dia",
+    "query": "Consultar História"
+  },
+  "months": {
+    "january": "Janeiro",
+    "february": "Fevereiro",
+    "march": "Março",
+    "april": "Abril",
+    "may": "Maio",
+    "june": "Junho",
+    "july": "Julho",
+    "august": "Agosto",
+    "september": "Setembro",
+    "october": "Outubro",
+    "november": "Novembro",
+    "december": "Dezembro"
+  },
+  "results": {
+    "title": "Neste Dia na História",
+    "births": "Nascimentos Notáveis",
+    "events": "Eventos Históricos",
+    "loading": "Carregando dados históricos...",
+    "loadingDesc": "Por favor aguarde..."
+  },
+  "reviews": {
+    "title": "Avaliações dos Usuários",
+    "users": [
+      {
+        "name": "João Silva",
+        "time": "há 2 horas",
+        "content": "Esta ferramenta de consulta histórica é muito útil! Todos os dias posso descobrir eventos interessantes que aconteceram neste dia da história e ganhar muito conhecimento."
+      },
+      {
+        "name": "Maria Santos",
+        "time": "há 5 horas",
+        "content": "Como professora de história, uso frequentemente este site para encontrar materiais de ensino. O suporte multilíngue permite-me encontrar materiais históricos de diferentes perspectivas."
+      },
+      {
+        "name": "Pedro Oliveira",
+        "time": "há 1 dia",
+        "content": "Abrir este site todas as manhãs tornou-se o meu hábito, para ver o que aconteceu neste dia da história. É muito interessante!"
+      },
+      {
+        "name": "Ana Costa",
+        "time": "há 2 dias",
+        "content": "Interface limpa e clara, dados precisos e detalhados. Como entusiasta da história, este é realmente um site tesouro que descobri!"
+      },
+      {
+        "name": "Carlos Ferreira",
+        "time": "há 3 dias",
+        "content": "As crianças adoram especialmente este site, verificando todos os dias o que aconteceu neste dia da história. Agora o seu interesse pela história aumentou consideravelmente."
+      },
+      {
+        "name": "Luísa Rodrigues",
+        "time": "há 4 dias",
+        "content": "Fonte de dados confiável, conteúdo rico e detalhado. Sejam eventos históricos importantes ou aniversários de personalidades famosas, tudo é apresentado em detalhe."
+      },
+      {
+        "name": "António Pereira",
+        "time": "há 5 dias",
+        "content": "Usar este site para escrever um diário é particularmente interessante. Todos os dias posso registar conhecimentos históricos e tornar os dias ordinários interessantes."
+      },
+      {
+        "name": "Isabel Martins",
+        "time": "há 1 semana",
+        "content": "Resposta rápida do site, informações precisas, design limpo e generoso. É uma excelente ferramenta para aprender história e expandir conhecimentos."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "items": [
+      {
+        "question": "O que é \"Neste dia da história\"?",
+        "answer": "\"Neste dia da história\" é uma ferramenta de consulta histórica que o ajuda a descobrir eventos importantes e nascimentos notáveis que ocorreram em qualquer dia da história. Obtemos dados históricos precisos da Wikipedia."
+      },
+      {
+        "question": "Como usar esta ferramenta de consulta histórica?",
+        "answer": "Selecione o mês e dia do seu interesse, depois clique no botão \"Consultar história\". O sistema mostrará eventos históricos e nascimentos notáveis para essa data."
+      },
+      {
+        "question": "Qual é a fonte dos dados?",
+        "answer": "Os nossos dados históricos provêm da API \"Neste dia\" da Wikipedia, garantindo a precisão e autoridade da informação. Os dados são atualizados em tempo real."
+      },
+      {
+        "question": "Que idiomas são suportados?",
+        "answer": "Suportamos múltiplas versões linguísticas, incluindo português, inglês, chinês, alemão, espanhol, etc. Diferentes versões linguísticas podem ter conteúdos diferentes, refletindo diversas perspectivas culturais sobre a história."
+      },
+      {
+        "question": "Como partilhar informações históricas?",
+        "answer": "Pode partilhar o link do site com amigos, ou copiar e partilhar conteúdo histórico interessante. Recomendamos indicar a fonte da informação ao partilhar."
+      },
+      {
+        "question": "Posso consultar todas as datas?",
+        "answer": "Sim, pode consultar qualquer dia do ano (de 1 de janeiro a 31 de dezembro). O nosso sistema gere automaticamente os anos bissextos."
+      },
+      {
+        "question": "Este serviço é gratuito?",
+        "answer": "Sim! O nosso serviço de consulta histórica é completamente gratuito, sem registo ou pagamento necessário. Pode consultar qualquer data histórica interessante a qualquer momento."
+      },
+      {
+        "question": "Como obter informações históricas mais detalhadas?",
+        "answer": "Mostramos resumos de eventos históricos e personagens. Para mais detalhes, recomendamos visitar a Wikipedia ou outras fontes históricas autoritárias para um aprendizado mais profundo."
+      }
+    ]
+  },
+  "footer": {
+    "about": "Sobre Nós",
+    "agreement": "Acordo do Usuário",
+    "terms": "Termos de Serviço",
+    "copyright": "© 2024 Neste Dia na História. Todos os direitos reservados."
+  },
+  "modal": {
+    "title": "Detalhes Históricos",
+    "close": "Fechar"
+  },
+  "messages": {
+    "loadFailed": "Falha no carregamento, atualize e tente novamente",
+    "queryFailed": "Falha na consulta, tente novamente mais tarde"
+  }
+}

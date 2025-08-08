@@ -46,7 +46,7 @@ class I18n {
     }
 
     isSupported(lang) {
-        return ['en', 'zh', 'de', 'fr', 'it', 'es', 'tr', 'id', 'pt-br', 'ru'].includes(lang);
+        return ['en', 'zh', 'de', 'fr', 'it', 'es', 'tr', 'ar', 'bs', 'uk', 'sv', 'pt'].includes(lang);
     }
 
     async loadTranslations() {
@@ -193,7 +193,7 @@ class I18n {
             if (userData) {
                 const name = item.querySelector('h4');
                 const time = item.querySelector('.text-sm.text-gray-500');
-                const content = item.querySelector('p:last-child');
+                const content = item.querySelector('p');
                 
                 if (name && userData.name) {
                     name.textContent = userData.name;
@@ -276,10 +276,37 @@ class I18n {
             { code: 'it', name: 'Italian', nativeName: 'Italiano' },
             { code: 'es', name: 'Spanish', nativeName: 'Español' },
             { code: 'tr', name: 'Turkish', nativeName: 'Türkçe' },
-            { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia' },
-            { code: 'pt-br', name: 'Portuguese (Brazil)', nativeName: 'Português (Brasil)' },
-            { code: 'ru', name: 'Russian', nativeName: 'Русский' }
+            { code: 'ar', name: 'Arabic', nativeName: 'العربية' },
+            { code: 'bs', name: 'Bosnian', nativeName: 'Bosanski' },
+            { code: 'uk', name: 'Ukrainian', nativeName: 'українська' },
+            { code: 'sv', name: 'Swedish', nativeName: 'Svenska' },
+            { code: 'pt', name: 'Portuguese', nativeName: 'Português' }
         ];
+    }
+
+    async loadFallbackData(lang, section) {
+        try {
+            const response = await fetch(`/i18n/${lang}.json`);
+            if (response.ok) {
+                const fallbackData = await response.json();
+                if (fallbackData[section]) {
+                    // Merge fallback data into current translations
+                    if (!this.translations[section]) {
+                        this.translations[section] = {};
+                    }
+                    Object.assign(this.translations[section], fallbackData[section]);
+                    
+                    // Re-apply the specific section update
+                    if (section === 'reviews') {
+                        this.updateReviews();
+                    } else if (section === 'faq') {
+                        this.updateFAQ();
+                    }
+                }
+            }
+        } catch (error) {
+            console.error(`Failed to load fallback ${section} data from ${lang}:`, error);
+        }
     }
 }
 

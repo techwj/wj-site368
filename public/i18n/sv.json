@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "På denna dag i historien - Utforska historiska händelser och notabla födelser",
+    "description": "Upptäck viktiga historiska händelser och notabla födelser som inträffade på denna dag i historien. Flerspråkigt stöd för att utforska fascinerande berättelser från varje dag i historien.",
+    "keywords": "på denna dag, historiska händelser, notabla födelser, historiefrågor, flerspråkig historia, Wikipedia historia",
+    "author": "På denna dag i historien",
+    "ogTitle": "På denna dag i historien - Utforska historiska händelser och notabla födelser",
+    "ogDescription": "Upptäck viktiga historiska händelser och notabla födelser som inträffade på denna dag i historien. Flerspråkigt stöd för att utforska fascinerande berättelser från varje dag i historien."
+  },
+  "nav": {
+    "today": "Dagens förfrågan",
+    "events": "Historiska händelser",
+    "reviews": "Användarrecensioner",
+    "faq": "Vanliga frågor",
+    "themeToggleDark": "Växla mörkt tema",
+    "themeToggleLight": "Växla ljust tema"
+  },
+  "header": {
+    "title": "På denna dag i historien"
+  },
+  "dateSelector": {
+    "title": "Välj datum",
+    "month": "Månad",
+    "day": "Dag",
+    "query": "Fråga historia"
+  },
+  "months": {
+    "january": "Januari",
+    "february": "Februari",
+    "march": "Mars",
+    "april": "April",
+    "may": "Maj",
+    "june": "Juni",
+    "july": "Juli",
+    "august": "Augusti",
+    "september": "September",
+    "october": "Oktober",
+    "november": "November",
+    "december": "December"
+  },
+  "results": {
+    "title": "På denna dag i historien",
+    "births": "Notabla födelser",
+    "events": "Historiska händelser",
+    "loading": "Laddar historiska data...",
+    "loadingDesc": "Vänta..."
+  },
+  "reviews": {
+    "title": "Användarrecensioner",
+    "users": [
+      {
+        "name": "Erik Andersson",
+        "time": "för 2 timmar sedan",
+        "content": "Detta historiska sökverktyg är så användbart! Varje dag kan jag upptäcka intressanta händelser som hände denna dag i historien och få mycket kunskap."
+      },
+      {
+        "name": "Anna Larsson",
+        "time": "för 5 timmar sedan",
+        "content": "Som historielärare använder jag ofta denna webbplats för att hitta undervisningsmaterial. Flerspråksstöd låter mig hitta historiska material från olika perspektiv."
+      },
+      {
+        "name": "Johan Nilsson",
+        "time": "för 1 dag sedan",
+        "content": "Att öppna denna webbplats varje morgon har blivit min vana, för att se vad som hände denna dag i historien. Det är mycket intressant!"
+      },
+      {
+        "name": "Maria Johansson",
+        "time": "för 2 dagar sedan",
+        "content": "Rent och tydligt gränssnitt, noggranna och detaljerade data. Som historieentusiast är detta verkligen en skattwebbplats jag har upptäckt!"
+      },
+      {
+        "name": "Peter Karlsson",
+        "time": "för 3 dagar sedan",
+        "content": "Barn älskar särskilt denna webbplats, kontrollerar varje dag vad som hände denna dag i historien. Nu har deras intresse för historia ökat avsevärt."
+      },
+      {
+        "name": "Sara Eriksson",
+        "time": "för 4 dagar sedan",
+        "content": "Pålitlig datakälla, rikt och detaljerat innehåll. Oavsett om det är viktiga historiska händelser eller födelsedagar för kända personligheter, allt presenteras i detalj."
+      },
+      {
+        "name": "Magnus Persson",
+        "time": "för 5 dagar sedan",
+        "content": "Att använda denna webbplats för att skriva dagbok är särskilt intressant. Varje dag kan jag registrera historisk kunskap och göra vanliga dagar intressanta."
+      },
+      {
+        "name": "Linda Gustafsson",
+        "time": "för 1 vecka sedan",
+        "content": "Snabb webbplatsrespons, noggrann information, ren och generös design. Det är ett utmärkt verktyg för att lära sig historia och utvidga kunskap."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "items": [
+      {
+        "question": "Vad är \"På denna dag i historien\"?",
+        "answer": "\"På denna dag i historien\" är ett historiskt sökverktyg som hjälper dig att upptäcka viktiga händelser och anmärkningsvärda födelser som inträffade vilken dag som helst i historien. Vi får noggranna historiska data från Wikipedia."
+      },
+      {
+        "question": "Hur använder jag detta historiska sökverktyg?",
+        "answer": "Välj månad och dag som intresserar dig, klicka sedan på knappen \"Fråga historia\". Systemet kommer att visa historiska händelser och anmärkningsvärda födelser för det datumet."
+      },
+      {
+        "question": "Vad är datakällan?",
+        "answer": "Våra historiska data kommer från Wikipedias \"På denna dag\" API, vilket garanterar informationens noggrannhet och auktoritet. Data uppdateras i realtid."
+      },
+      {
+        "question": "Vilka språk stöds?",
+        "answer": "Vi stödjer flera språkversioner, inklusive svenska, engelska, kinesiska, tyska, spanska etc. Olika språkversioner kan ha olika innehåll, vilket återspeglar olika kulturella perspektiv på historien."
+      },
+      {
+        "question": "Hur delar jag historisk information?",
+        "answer": "Du kan dela webbplatsens länk med vänner, eller kopiera och dela intressant historiskt innehåll. Vi rekommenderar att du anger informationskällan när du delar."
+      },
+      {
+        "question": "Kan jag fråga alla datum?",
+        "answer": "Ja, du kan fråga vilken dag som helst på året (från 1 januari till 31 december). Vårt system hanterar automatiskt skottår."
+      },
+      {
+        "question": "Är denna tjänst gratis?",
+        "answer": "Ja! Vår historiska söktjänst är helt gratis, ingen registrering eller betalning krävs. Du kan fråga vilket intressant historiskt datum som helst när som helst."
+      },
+      {
+        "question": "Hur får jag mer detaljerad historisk information?",
+        "answer": "Vi visar sammanfattningar av historiska händelser och karaktärer. För mer detaljer rekommenderar vi att du besöker Wikipedia eller andra auktoritativa historiska källor för djupare lärande."
+      }
+    ]
+  },
+  "footer": {
+    "about": "Om oss",
+    "agreement": "Användaravtal",
+    "terms": "Användarvillkor",
+    "copyright": "© 2024 På denna dag i historien. Alla rättigheter förbehållna."
+  },
+  "modal": {
+    "title": "Historiska detaljer",
+    "close": "Stäng"
+  },
+  "messages": {
+    "loadFailed": "Laddning misslyckades, vänligen uppdatera och försök igen",
+    "queryFailed": "Förfrågan misslyckades, försök igen senare"
+  }
+}

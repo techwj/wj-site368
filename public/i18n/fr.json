@@ -1,146 +1,144 @@
 {
   "meta": {
-    "title": "Générateur de codes QR IA gratuit - Créez de beaux codes QR",
-    "description": "Générateur de codes QR IA gratuit alimenté par Cloudflare Workers. Créez de beaux codes QR avec des arrière-plans générés par IA pour les sites web, les réseaux sociaux et les campagnes marketing.",
-    "keywords": "générateur de codes QR, arrière-plans IA, codes QR personnalisés, outil QR gratuit, codes QR de site web, codes QR marketing, codes QR de marque, design IA",
-    "author": "Générateur de codes QR IA",
-    "ogTitle": "Générateur de codes QR IA gratuit - Créez de beaux codes QR",
-    "ogDescription": "Créez de beaux codes QR avec des arrière-plans générés par IA. Outil en ligne gratuit pour les sites web, le marketing et les campagnes sur les réseaux sociaux."
+    "title": "Ce jour dans l'histoire - Explorez les événements historiques et les naissances notables",
+    "description": "Découvrez les événements historiques importants et les naissances notables qui se sont produits ce jour dans l'histoire. Support multilingue pour explorer des histoires fascinantes de chaque jour de l'histoire.",
+    "keywords": "ce jour, événements historiques, naissances notables, requête historique, histoire multilingue, histoire Wikipedia",
+    "author": "Ce jour dans l'histoire",
+    "ogTitle": "Ce jour dans l'histoire - Explorez les événements historiques et les naissances notables",
+    "ogDescription": "Découvrez les événements historiques importants et les naissances notables qui se sont produits ce jour dans l'histoire. Support multilingue pour explorer des histoires fascinantes de chaque jour de l'histoire."
   },
   "nav": {
-    "generator": "Générateur",
-    "examples": "Exemples",
-    "reviews": "Avis",
-    "faq": "FAQ",
+    "today": "Requête d'aujourd'hui",
+    "events": "Événements historiques",
+    "reviews": "Avis des utilisateurs",
+    "faq": "Questions fréquentes",
     "themeToggleDark": "Basculer vers le thème sombre",
     "themeToggleLight": "Basculer vers le thème clair"
   },
   "header": {
-    "title": "Générateur de codes QR IA"
+    "title": "Ce jour dans l'histoire"
   },
-  "generator": {
-    "urlLabel": "URL du site web",
-    "urlPlaceholder": "Entrez l'URL du site web (par ex. https://example.com)",
-    "styleLabel": "Style d'arrière-plan",
-    "generateButton": "Générer le code QR",
-    "loading": "Chargement..."
+  "dateSelector": {
+    "title": "Sélectionner la date",
+    "month": "Mois",
+    "day": "Jour",
+    "query": "Interroger l'histoire"
   },
-  "result": {
-    "title": "Code QR généré",
-    "copyParams": "Copier les paramètres",
-    "download": "Télécharger le code QR",
-    "generationTime": "Temps de génération :",
-    "backgroundStyle": "Style d'arrière-plan :",
-    "generating": "Génération du code QR, veuillez patienter...",
-    "generatingDesc": "Cela peut prendre quelques secondes"
+  "months": {
+    "january": "Janvier",
+    "february": "Février",
+    "march": "Mars",
+    "april": "Avril",
+    "may": "Mai",
+    "june": "Juin",
+    "july": "Juillet",
+    "august": "Août",
+    "september": "Septembre",
+    "october": "Octobre",
+    "november": "Novembre",
+    "december": "Décembre"
   },
-  "examples": {
-    "title": "Exemples de codes QR",
-    "loadError": "Échec du chargement du code QR"
+  "results": {
+    "title": "Ce jour dans l'histoire",
+    "births": "Naissances notables",
+    "events": "Événements historiques",
+    "loading": "Chargement des données historiques...",
+    "loadingDesc": "Veuillez patienter..."
   },
   "reviews": {
     "title": "Avis des utilisateurs",
     "users": [
       {
-        "name": "Alice Dubois",
+        "name": "Pierre Dubois",
         "time": "il y a 2 heures",
-        "content": "Ce générateur de codes QR est incroyable ! Les arrière-plans IA rendent nos supports marketing si professionnels. Bien mieux que les codes QR noir et blanc ordinaires."
+        "content": "Cet outil de recherche historique est si utile ! Chaque jour, je peux découvrir des événements intéressants qui se sont produits ce jour dans l'histoire et acquérir beaucoup de connaissances."
       },
       {
-        "name": "Bob Martin",
+        "name": "Marie Martin",
         "time": "il y a 5 heures",
-        "content": "Parfait pour mon restaurant ! J'ai créé de beaux codes QR pour notre menu qui correspondent à notre image de marque. Les clients adorent les scanner."
+        "content": "En tant que professeure d'histoire, j'utilise souvent ce site pour trouver du matériel pédagogique. Le support multilingue me permet de trouver des matériaux historiques sous différents angles."
       },
       {
-        "name": "Carol Bernard",
+        "name": "Jean Moreau",
         "time": "il y a 1 jour",
-        "content": "La variété des styles d'arrière-plan est incroyable. Je l'utilise maintenant pour toutes mes campagnes sur les réseaux sociaux. Les codes QR sont à la fois fonctionnels et beaux !"
+        "content": "Ouvrir ce site chaque matin est devenu mon habitude, pour voir ce qui s'est passé ce jour dans l'histoire. C'est très intéressant !"
       },
       {
-        "name": "David Rousseau",
+        "name": "Sophie Leroy",
         "time": "il y a 2 jours",
-        "content": "Des codes QR gratuits et de haute qualité avec des arrière-plans personnalisés ? C'est révolutionnaire pour les petites entreprises comme la mienne. Hautement recommandé !"
+        "content": "Interface propre et claire, données précises et détaillées. En tant que passionné d'histoire, c'est vraiment un site trésor que j'ai découvert !"
       },
       {
-        "name": "Emma Lefebvre",
+        "name": "Antoine Bernard",
         "time": "il y a 3 jours",
-        "content": "J'adore comme il est facile de créer des codes QR de marque ! Les arrière-plans IA sont si créatifs et aident nos codes à se démarquer lors des événements."
+        "content": "Les enfants adorent particulièrement ce site, vérifiant chaque jour ce qui s'est passé ce jour dans l'histoire. Maintenant leur intérêt pour l'histoire a considérablement augmenté."
       },
       {
-        "name": "Frank Moreau",
+        "name": "Isabelle Rousseau",
         "time": "il y a 4 jours",
-        "content": "En tant que graphiste, j'apprécie l'attention aux détails. Les codes QR sont toujours scannables tandis que les arrière-plans sont visuellement époustouflants."
+        "content": "Source de données fiable, contenu riche et détaillé. Que ce soit pour des événements historiques majeurs ou des anniversaires de personnalités célèbres, tout est présenté en détail."
       },
       {
-        "name": "Grace Simon",
+        "name": "Nicolas Petit",
         "time": "il y a 5 jours",
-        "content": "Outil parfait pour ma boutique en ligne. J'ai créé des codes QR pointant vers les pages produits avec des arrière-plans correspondant à nos couleurs de marque."
+        "content": "Utiliser ce site pour tenir un journal est particulièrement intéressant. Chaque jour, je peux enregistrer des connaissances historiques et rendre les journées ordinaires intéressantes."
       },
       {
-        "name": "Henry Laurent",
+        "name": "Camille Girard",
         "time": "il y a 1 semaine",
-        "content": "La vitesse de génération est impressionnante et la qualité est constamment élevée. C'est devenu un outil essentiel pour notre équipe marketing."
+        "content": "Réactivité rapide du site, informations précises, design propre et généreux. C'est un excellent outil pour apprendre l'histoire et élargir ses connaissances."
       }
     ]
   },
   "faq": {
-    "title": "Foire aux questions",
+    "title": "Questions fréquentes",
     "items": [
       {
-        "question": "Qu'est-ce qu'un générateur de codes QR IA ?",
-        "answer": "Notre générateur de codes QR IA crée des codes QR fonctionnels avec de beaux arrière-plans générés par IA. Contrairement aux codes noir et blanc ordinaires, les nôtres combinent fonctionnalité et design visuel époustouflant."
+        "question": "Qu'est-ce que \"Ce jour dans l'histoire\" ?",
+        "answer": "\"Ce jour dans l'histoire\" est un outil de recherche historique qui vous aide à découvrir des événements importants et des naissances notables qui se sont produits à n'importe quel jour de l'histoire. Nous obtenons des données historiques précises de Wikipedia."
       },
       {
-        "question": "Comment utiliser le générateur de codes QR ?",
-        "answer": "Entrez simplement l'URL de votre site web, choisissez un style d'arrière-plan et cliquez sur \"Générer le code QR\". L'outil créera un code QR scannable avec un arrière-plan artistique généré par IA."
+        "question": "Comment utiliser cet outil de recherche historique ?",
+        "answer": "Sélectionnez le mois et le jour qui vous intéressent, puis cliquez sur le bouton \"Interroger l'histoire\". Le système affichera les événements historiques et les naissances notables pour cette date."
       },
       {
-        "question": "Les codes QR générés sont-ils scannables ?",
-        "answer": "Oui ! Malgré leurs beaux arrière-plans, tous nos codes QR maintiennent une scannabilité complète. Nous assurons un contraste et un positionnement appropriés pour que tout scanner de codes QR puisse les lire."
+        "question": "Quelle est la source des données ?",
+        "answer": "Nos données historiques proviennent de l'API \"Ce jour\" de Wikipedia, garantissant la précision et l'autorité des informations. Les données sont mises à jour en temps réel."
       },
       {
-        "question": "Puis-je utiliser ces codes QR commercialement ?",
-        "answer": "Absolument ! Vous pouvez utiliser les codes QR générés pour tout usage, y compris l'usage commercial, les supports marketing, les cartes de visite, les menus et les campagnes promotionnelles."
+        "question": "Quelles langues sont prises en charge ?",
+        "answer": "Nous prenons en charge plusieurs versions linguistiques, y compris le français, l'anglais, le chinois, l'allemand, l'espagnol, etc. Différentes versions linguistiques peuvent avoir des contenus différents, reflétant diverses perspectives culturelles sur l'histoire."
       },
       {
-        "question": "Comment puis-je partager les codes QR ?",
-        "answer": "Vous pouvez télécharger les codes QR sous forme d'images haute résolution et les partager n'importe où - réseaux sociaux, supports imprimés, sites web ou e-mails. Ils fonctionnent sur tous les appareils et plateformes."
+        "question": "Comment partager des informations historiques ?",
+        "answer": "Vous pouvez partager le lien du site web avec des amis, ou copier et partager le contenu historique intéressant. Nous recommandons d'indiquer la source d'information lors du partage."
       },
       {
-        "question": "Quels styles d'arrière-plan sont disponibles ?",
-        "answer": "Nous offrons plusieurs styles d'arrière-plan générés par IA, y compris des designs artistiques, modernes, dégradés et thématiques. Chaque style est soigneusement conçu pour maintenir la lisibilité du code QR."
+        "question": "Puis-je interroger toutes les dates ?",
+        "answer": "Oui, vous pouvez interroger n'importe quel jour de l'année (du 1er janvier au 31 décembre). Notre système gère automatiquement les années bissextiles."
       },
       {
-        "question": "Le service est-il gratuit à utiliser ?",
-        "answer": "Oui ! Notre générateur de codes QR IA est entièrement gratuit à utiliser. Générez autant de beaux codes QR que vous en avez besoin sans aucun coût ou exigence d'inscription."
+        "question": "Ce service est-il gratuit ?",
+        "answer": "Oui ! Notre service de recherche historique est entièrement gratuit, sans inscription ni paiement requis. Vous pouvez interroger n'importe quelle date historique intéressante à tout moment."
       },
       {
-        "question": "Pour quels sites web puis-je créer des codes QR ?",
-        "answer": "Vous pouvez créer des codes QR pour toute URL de site web valide - sites web personnels, pages d'entreprise, profils de réseaux sociaux, boutiques en ligne, menus, portfolios et plus encore."
+        "question": "Comment obtenir des informations historiques plus détaillées ?",
+        "answer": "Nous affichons des résumés d'événements historiques et de personnages. Pour plus de détails, nous vous recommandons de visiter Wikipedia ou d'autres sources historiques faisant autorité pour un apprentissage plus approfondi."
       }
     ]
   },
   "footer": {
     "about": "À propos de nous",
-    "agreement": "Accord d'utilisateur",
+    "agreement": "Accord utilisateur",
     "terms": "Conditions de service",
-    "copyright": "© 2024 Générateur de codes QR IA. Tous droits réservés."
+    "copyright": "© 2024 Ce jour dans l'histoire. Tous droits réservés."
   },
   "modal": {
-    "title": "Détails du code QR",
-    "close": "Fermer",
-    "websiteUrl": "URL du site web",
-    "backgroundStyle": "Style d'arrière-plan",
-    "copyUrl": "Copier l'URL"
+    "title": "Détails historiques",
+    "close": "Fermer"
   },
   "messages": {
-    "urlCopied": "URL copiée dans le presse-papiers !",
-    "copyFailed": "Échec de la copie, veuillez copier manuellement",
-    "paramsCopied": "Paramètres copiés dans le presse-papiers",
-    "noQrCode": "Aucun code QR disponible pour le téléchargement",
-    "downloadSuccess": "Code QR téléchargé avec succès",
-    "downloadFailed": "Échec du téléchargement du code QR",
     "loadFailed": "Échec du chargement, veuillez actualiser et réessayer",
-    "generateFailed": "Échec de la génération du code QR"
+    "queryFailed": "Échec de la requête, veuillez réessayer plus tard"
   }
 }

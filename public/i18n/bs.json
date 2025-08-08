@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Na ovaj dan u historiji - Istražite historijske događaje i značajna rođenja",
+    "description": "Otkrijte važne historijske događaje i značajna rođenja koja su se dogodila na ovaj dan u historiji. Višejezična podrška za istraživanje fascinantnih priča iz svakog dana u historiji.",
+    "keywords": "na ovaj dan, historijski događaji, značajna rođenja, historijski upit, višejezična historija, Wikipedia historija",
+    "author": "Na ovaj dan u historiji",
+    "ogTitle": "Na ovaj dan u historiji - Istražite historijske događaje i značajna rođenja",
+    "ogDescription": "Otkrijte važne historijske događaje i značajna rođenja koja su se dogodila na ovaj dan u historiji. Višejezična podrška za istraživanje fascinantnih priča iz svakog dana u historiji."
+  },
+  "nav": {
+    "today": "Današnji upit",
+    "events": "Historijski događaji",
+    "reviews": "Korisničke recenzije",
+    "faq": "Često postavljana pitanja",
+    "themeToggleDark": "Prebaci na tamnu temu",
+    "themeToggleLight": "Prebaci na svijetlu temu"
+  },
+  "header": {
+    "title": "Na ovaj dan u historiji"
+  },
+  "dateSelector": {
+    "title": "Odaberi datum",
+    "month": "Mjesec",
+    "day": "Dan",
+    "query": "Pretraži historiju"
+  },
+  "months": {
+    "january": "Januar",
+    "february": "Februar",
+    "march": "Mart",
+    "april": "April",
+    "may": "Maj",
+    "june": "Juni",
+    "july": "Juli",
+    "august": "August",
+    "september": "Septembar",
+    "october": "Oktobar",
+    "november": "Novembar",
+    "december": "Decembar"
+  },
+  "results": {
+    "title": "Na ovaj dan u historiji",
+    "births": "Značajna rođenja",
+    "events": "Historijski događaji",
+    "loading": "Učitavanje historijskih podataka...",
+    "loadingDesc": "Molimo sačekajte..."
+  },
+  "reviews": {
+    "title": "Korisničke recenzije",
+    "users": [
+      {
+        "name": "Marko Petrović",
+        "time": "prije 2 sata",
+        "content": "Ovaj alat za pretraživanje istorije je tako koristan! Svaki dan mogu da otkrijem zanimljive događaje koji su se desili na ovaj dan u istoriji i da steknem mnogo znanja."
+      },
+      {
+        "name": "Milica Janković",
+        "time": "prije 5 sati",
+        "content": "Kao profesorka istorije, često koristim ovaj sajt da pronađem nastavne materijale. Podrška za više jezika mi omogućava da pronađem istorijske materijale iz različitih perspektiva."
+      },
+      {
+        "name": "Stefan Milanović",
+        "time": "prije 1 dan",
+        "content": "Otvaranje ovog sajta svako jutro postalo je moja navika, da vidim šta se desilo na ovaj dan u istoriji. Vrlo je zanimljivo!"
+      },
+      {
+        "name": "Ana Stojanović",
+        "time": "prije 2 dana",
+        "content": "Čist i jasan interfejs, tačni i detaljni podaci. Kao ljubitelj istorije, ovo je stvarno sajt-blago koji sam otkrio!"
+      },
+      {
+        "name": "Nikola Đorđević",
+        "time": "prije 3 dana",
+        "content": "Djeca posebno vole ovaj sajt, proveravaju svaki dan šta se desilo na ovaj dan u istoriji. Sada je njihovo interesovanje za istoriju značajno povećano."
+      },
+      {
+        "name": "Jelena Nikolić",
+        "time": "prije 4 dana",
+        "content": "Pouzdan izvor podataka, bogat i detaljan sadržaj. Bilo da se radi o važnim istorijskim događajima ili rođendanima poznanih ličnosti, sve je detaljno predstavljeno."
+      },
+      {
+        "name": "Miloš Popović",
+        "time": "prije 5 dana",
+        "content": "Korišćenje ovog sajta za pisanje dnevnika je posebno zanimljivo. Svaki dan mogu da zabilježim istorijska znanja i da obične dane učinim zanimljivima."
+      },
+      {
+        "name": "Marija Radić",
+        "time": "prije 1 nedelju",
+        "content": "Brz odgovor sajta, tačne informacije, čist i velikodušan dizajn. To je odličan alat za učenje istorije i proširivanje znanja."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Često postavljana pitanja",
+    "items": [
+      {
+        "question": "Šta je \"Na ovaj dan u istoriji\"?",
+        "answer": "\"Na ovaj dan u istoriji\" je alat za pretraživanje istorije koji vam pomaže da otkrijete važne događaje i značajna rođenja koja su se desila bilo koji dan u istoriji. Dobijamo tačne istorijske podatke iz Vikipedije."
+      },
+      {
+        "question": "Kako da koristim ovaj alat za pretraživanje istorije?",
+        "answer": "Izaberite mesec i dan koji vas interesuje, zatim kliknite na dugme \"Pretraži istoriju\". Sistem će prikazati istorijske događaje i značajna rođenja za taj datum."
+      },
+      {
+        "question": "Koji je izvor podataka?",
+        "answer": "Naši istorijski podaci dolaze iz Vikipedije API \"Na ovaj dan\", garantujući tačnost i autoritet informacija. Podaci se ažuriraju u realnom vremenu."
+      },
+      {
+        "question": "Koji jezici su podržani?",
+        "answer": "Podržavamo više jezičkih verzija, uključujući bosanski, engleski, kineski, nemački, španski itd. Različite jezičke verzije mogu imati različit sadržaj, odražavajući različite kulturne perspektive istorije."
+      },
+      {
+        "question": "Kako da podelim istorijske informacije?",
+        "answer": "Možete podeliti link sajta sa prijateljima, ili kopirati i podeliti zanimljiv istorijski sadržaj. Preporučujemo da navedete izvor informacija pri deljenju."
+      },
+      {
+        "question": "Mogu li da pretražujem sve datume?",
+        "answer": "Da, možete da pretražujete bilo koji dan u godini (od 1. januara do 31. decembra). Naš sistem automatski rešava prestupne godine."
+      },
+      {
+        "question": "Da li je ova usluga besplatna?",
+        "answer": "Da! Naša usluga pretraživanja istorije je potpuno besplatna, bez potrebe za registracijom ili plaćanjem. Možete da pretražujete bilo koji zanimljiv istorijski datum u bilo kom trenutku."
+      },
+      {
+        "question": "Kako da dobijem detaljnije istorijske informacije?",
+        "answer": "Prikazujemo sažetke istorijskih događaja i ličnosti. Za više detalja, preporučujemo posetu Vikipediji ili drugim autoritativnim istorijskim izvorima za dublje učenje."
+      }
+    ]
+  },
+  "footer": {
+    "about": "O nama",
+    "agreement": "Korisnički ugovor",
+    "terms": "Uslovi korištenja",
+    "copyright": "© 2024 Na ovaj dan u historiji. Sva prava zadržana."
+  },
+  "modal": {
+    "title": "Historijski detalji",
+    "close": "Zatvori"
+  },
+  "messages": {
+    "loadFailed": "Učitavanje neuspješno, osvježite i pokušajte ponovo",
+    "queryFailed": "Upit neuspješan, pokušajte ponovo kasnije"
+  }
+}
